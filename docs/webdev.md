@@ -42,7 +42,7 @@ Cada petición de un URL es resuelta por la web usando el protocolo _HTTP_, que 
 
 La forma más simple de hacer una página web es un archivo de texto HTML que es servido tal cuál.
 
-Una forma más sofisticada de servir una página es con un programa que construya nuevo HTML cada vez que se necesita. Así, el contenido de la página es **dinámico**, cambiar según sea el caso.
+Una forma más sofisticada de servir una página es con un programa que construya nuevo HTML cada vez que se necesita. Así, el contenido de la página es **dinámico**, cambiando según sea el caso.
 
 Entre los lenguajes más populares para hacer esto están: [Perl](https://www.perl.org/), [Java](https://www.java.com/es/), [PHP](https://www.php.net/), [Python](https://www.python.org/) y Javascript (que gracias a [Node.js](https://nodejs.org/en/) también puede correr en el lado del servidor).
 
