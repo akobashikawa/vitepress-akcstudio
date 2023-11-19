@@ -131,7 +131,7 @@ Frameworks javascript como [Meteor](https://www.meteor.com/), [Angular](https://
 	- En el contexto de la programación, se valida si los componentes se comportan como se espera.
 	- En el contexto de producción, se valida si la solución funciona como se espera.
 - Estos estados se aplican tanto para la aplicación en general como para cada feature que se desea implementar.
-	  - Es normal que se tengan que repetir ciclos total o parcialmente mientras se van haciendo descubrimientos y va cobrando forma la solución.
+- Es normal que se tengan que repetir ciclos total o parcialmente mientras se van haciendo descubrimientos y va cobrando forma la solución.
 
 
 ## Desarrollando
