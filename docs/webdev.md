@@ -8,23 +8,25 @@ El desarrollo web está enfocado en el desarrollo de páginas web, sitios web y 
 
 El origen de la web se remonta hacia fines de la década de 1980, cuando [Tim Berners-Lee](https://es.wikipedia.org/wiki/Tim_Berners-Lee) lideró un proyecto del [CERN](https://es.wikipedia.org/wiki/Organizaci%C3%B3n_Europea_para_la_Investigaci%C3%B3n_Nuclear) para ayudar a la comunidad de científicos a compartir sus publicaciones.
 
-El lenguaje [HTML](https://www.w3schools.com/html/) fue desarrollado para ello, con capacidades básicas para formatear el texto y hacer **hiper vínculos**, o _links_ entre páginas, lo que conducía a formar una red de documentos donde se podía saltar fácilmente de uno a otro.
+Se creó el lenguaje [HTML](https://www.w3schools.com/html/), con capacidades básicas para formatear el texto y hacer **hipervínculos**, o _links_ entre páginas, lo que permitía tejer una red de documentos donde se podía saltar fácilmente de uno a otro.
 
-La red, similar a una telaraña, se bautizó como _World Wide Web_ (_WWW_, ó _La Web_). Se recorre con ayuda de un programa llamado _browser_, donde se puede colocar la dirección de la página (ó _URL_) y saltar a nuevas direcciones usando los links.
+Esta red les pareció similar a una telaraña y se bautizó como _World Wide Web_ (_WWW_, o _La Web_).
 
-El uso de la web se liberó y prontó se extendió a otras comunidades académicas, universidades, y luego por todo el mundo.
+Para navegar por la red de documentos se usa un programa llamado _browser_, donde se puede colocar la dirección de la página (o _URL_) y saltar a nuevas direcciones usando los links.
+
+El uso de la web se liberó y pronto se extendió a otras comunidades académicas, universidades, y por todo el mundo.
 
 
 ## Estilos
 
-Medios de comunicación tradicionales experimentaron publicar en la web e impulsaron mejoras en HTML.
+Muchos medios de comunicación, como diarios y revistas, experimentaron publicar en la web e impulsaron mejoras en el lenguaje HTML.
 
-Las **hojas de estilo [CSS](https://www.w3schools.com/css/)** permitieron un manejo más eficiente del diseño gráfico de una página web.
+Las **hojas de estilo** [CSS](https://www.w3schools.com/css/) aparecieron para permitir un manejo más eficiente del diseño gráfico de una página web.
 
 
 ## Acciones
 
-Empresas como **Microsoft**, con [Internet Explorer](https://es.wikipedia.org/wiki/Internet_Explorer), y **Netscape**, con [Navigator](https://es.wikipedia.org/wiki/Netscape_Navigator), compitieron por tener el mejor browser, impulsando el desarrollo de [javascript](https://www.javascript.com/), un lenguaje de programación para manipular programáticamente los componentes de una página web.
+Empresas como **Microsoft**, con [Internet Explorer](https://es.wikipedia.org/wiki/Internet_Explorer), y **Netscape**, con [Navigator](https://es.wikipedia.org/wiki/Netscape_Navigator), compitieron por tener el mejor browser, impulsando el desarrollo de [javascript](https://www.javascript.com/), un lenguaje de programación para manipular los componentes de una página web.
 
 Así, HTML, CSS y Javascript se convirtieron en el trío necesario para construir una página web.
 
@@ -88,13 +90,13 @@ Frameworks javascript como [Meteor](https://www.meteor.com/), [Angular](https://
 ## Preferencias al desarrollar
 
 - Evitar las soluciones caras si hay alguna más económica disponible.
-  - Por ejemplo, es costoso e innecesario validar una idea con una infraestructura completa de producción corriendo.
-    - Se corre el riesgo de que la validación no apruebe propuestas que han significado muchas horas y esfuerzo.
-    - Hace costoso y doloroso cada cambio.
-      - Crea resistencia al cambio.
-    - Es mejor usar mockups para proveer data que aún no ha sido validada.
-    - Es mejor usar bocetos para describir componentes que aún no han sido validados.
-    - Es mejor usar descripciones para ideas que aún no han sido validadas.
+	- Por ejemplo, es costoso e innecesario validar una idea con una infraestructura completa de producción corriendo.
+		- Se corre el riesgo de que la validación no apruebe propuestas que han significado muchas horas y esfuerzo.
+		- Hace costoso y doloroso cada cambio.
+			- Crea resistencia al cambio.
+	- Es mejor usar mockups para proveer data que aún no ha sido validada.
+	- Es mejor usar bocetos para describir componentes que aún no han sido validados.
+	- Es mejor usar descripciones para ideas que aún no han sido validadas.
 - Que una solución no obstruya las siguientes.
 - Es mejor implementar algo aproximado y que llegue a correr que buscar algo perfecto que no se logrará implementar.
 
@@ -103,75 +105,75 @@ Frameworks javascript como [Meteor](https://www.meteor.com/), [Angular](https://
 
 - En el **ambiente académico** (como el de los tutoriales), se usa un flujo de trabajo propio de **tareas** que son **determinadas** y **bien conocidas**.
 - En el **mundo real**, lo usual es que haya **problemas indeterminados** y haya muchas partes **desconocidas**.
-  - También es frecuente la necesidad de **cambiar**, agrega o quitar, objetivos o características, en el transcurso del desarrollo.
+	  - También es frecuente la necesidad de **cambiar**, agrega o quitar, objetivos o características, en el transcurso del desarrollo.
 - [Agile]([What is Agile? | Agile 101 | Agile Alliance](https://www.agilealliance.org/agile101/)) trata de **manejar la incertidumbre** y entregar lo mejor que se pueda producir, con los materiales disponibles, en el tiempo disponible.
 
 
 ## Contextos
 
-- Se puede considerar los siguientes estadíos:
-  - Idea
-  - Boceto
-  - Maqueta
-  - Programación
-  - Producción
-- Cada estadío determina un **contexto**, o **conjunto de consideraciones**.
-- Para pasar al siguiente estadío se necesita una **validación** en el estadío presente.
-  - La idea debe ser validada antes de pasar a hacer el boceto
-  - El boceto debe ser validado antes de pasar a hacer la maqueta
-  - La maqueta debe ser validada antes de pasar a programar
-  - La programación debe ser validada antes de pasar a producción
-- Los criterios de evaluación son determinados por el estadío
-  - Por ejemplo, no es util usar criterios de producción en el contexto de una idea.
-  - En el contexto de una idea, se valida la idea de la solución.
-  - En el contexto de un boceto, se valida si algo va o no va en cierta area aproximada.
-  - En el contexto de una maqueta, se valida la disposición de los componentes.
-  - En el contexto de la programación, se valida si los componentes se comportan como se espera.
-  - En el contexto de producción, se valida si la solución funciona como se espera.
-- Estos estadíos se aplican tanto para la aplicación en general como para cada feature que se desea implementar.
-  - Es normal que se tengan que repetir ciclos total o parcialmente mientras se van haciendo descubrimientos y va cobrando forma la solución.
+- Se puede considerar los siguientes estados:
+	- Idea
+	- Boceto
+	- Maqueta
+	- Programación
+	- Producción
+- Cada estado determina un **contexto**, o **conjunto de consideraciones**.
+- Para pasar al siguiente estado se necesita una **validación** en el estado presente.
+	- La idea debe ser validada antes de pasar a hacer el boceto
+	- El boceto debe ser validado antes de pasar a hacer la maqueta
+	- La maqueta debe ser validada antes de pasar a programar
+	- La programación debe ser validada antes de pasar a producción
+- Los criterios de evaluación son determinados por el estado
+	- Por ejemplo, no es util usar criterios de producción en el contexto de una idea.
+	- En el contexto de una idea, se valida la idea de la solución.
+	- En el contexto de un boceto, se valida si algo va o no va en cierta area aproximada.
+	- En el contexto de una maqueta, se valida la disposición de los componentes.
+	- En el contexto de la programación, se valida si los componentes se comportan como se espera.
+	- En el contexto de producción, se valida si la solución funciona como se espera.
+- Estos estados se aplican tanto para la aplicación en general como para cada feature que se desea implementar.
+	  - Es normal que se tengan que repetir ciclos total o parcialmente mientras se van haciendo descubrimientos y va cobrando forma la solución.
 
 
 ## Desarrollando
 
 - Se elige alguna parte relevante de la solución
 - Se valida la idea
-  - Frontend: en espera
-  - Backend: en espera
+	- Frontend: en espera
+	- Backend: en espera
 - Se valida el boceto
-  - Frontend: en espera
-  - Backend: en espera
+	- Frontend: en espera
+	- Backend: en espera
 - Se valida la maqueta
-  - Frontend
-    - Se valida el componente colocado según el boceto
-    - Se muestran datos hardcodeados
-  - Backend
-    - En espera
+	- Frontend
+		- Se valida el componente colocado según el boceto
+		- Se muestran datos hardcodeados
+	- Backend
+		- En espera
 - Se valida la API
-  - Frontend
-    - Reemplazo datos hardcodeados por endpoints
-  - Backend
-    - Controladores: Provee endpoint con datos hardcodeados
-    - Servicios: En espera
-    - Repositorios: En espera
+	- Frontend
+		- Reemplazo datos hardcodeados por endpoints
+	- Backend
+		- Controladores: Provee endpoint con datos hardcodeados
+		- Servicios: En espera
+		- Repositorios: En espera
 - Se valida business logic
-  - Frontend: Usa endpoints
-  - Backend
-    - Controladores: Provee endpoint con datos del service
-    - Servicios: Implementa business logic con datos hardcodeados
-    - Repositorios: En espera
+	- Frontend: Usa endpoints
+	- Backend
+		- Controladores: Provee endpoint con datos del service
+		- Servicios: Implementa business logic con datos hardcodeados
+		- Repositorios: En espera
 - Se valida datos
-  - Frontend: Usa endpoints
-  - Backend
-    - Controladores: Provee endpoint con datos del service
-    - Servicios: Implementa business logic con datos del repositorio
-    - Repositorios: Datos mockup
+	- Frontend: Usa endpoints
+	- Backend
+		- Controladores: Provee endpoint con datos del service
+		- Servicios: Implementa business logic con datos del repositorio
+		- Repositorios: Datos mockup
 - Se valida conectividad con base de datos
-  - Frontend: Usa endpoints
-  - Backend
-    - Controladores: Provee endpoint con datos del service
-    - Servicios: Implementa business logic con datos del repositorio
-    - Repositorios: Base de datos
+	- Frontend: Usa endpoints
+	- Backend
+		- Controladores: Provee endpoint con datos del service
+		- Servicios: Implementa business logic con datos del repositorio
+		- Repositorios: Base de datos
 - Se sigue este esquema para cada feature y para la aplicación en general.
 
 
