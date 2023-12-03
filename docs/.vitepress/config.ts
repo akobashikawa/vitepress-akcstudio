@@ -37,5 +37,19 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/akobashikawa/vitepress-akcstudio' }
     ]
-  }
+  },
+  head: [
+    [
+      'script',
+      {
+        async: 'true',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-V13H3VTPBL',
+      },
+    ],
+    [
+      'script',
+      {},
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-V13H3VTPBL');",
+    ],
+  ],
 })
