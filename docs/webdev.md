@@ -2,9 +2,9 @@
 
 El desarrollo web está enfocado en el desarrollo de páginas web, sitios web y aplicaciones web.
 
-**La web** es la parte de internet construida con _HTML_.
+**La web** es la parte de internet construida en torno a contenido _HTML_, que se transmite usando principalmente el protocolo _HTTP_.
 
-## Texto
+## Hipertexto
 
 El origen de la web se remonta hacia fines de la década de 1980, cuando [Tim Berners-Lee](https://es.wikipedia.org/wiki/Tim_Berners-Lee) lideró un proyecto del [CERN](https://es.wikipedia.org/wiki/Organizaci%C3%B3n_Europea_para_la_Investigaci%C3%B3n_Nuclear) para ayudar a la comunidad de científicos a compartir sus publicaciones.
 
@@ -12,14 +12,14 @@ Se creó el lenguaje [HTML](https://www.w3schools.com/html/), con capacidades b�
 
 Esta red les pareció similar a una telaraña y se bautizó como _World Wide Web_ (_WWW_, o _La Web_).
 
-Para navegar por la red de documentos se usa un programa llamado _browser_, donde se puede colocar la dirección de la página (o _URL_) y saltar a nuevas direcciones usando los links.
+Para navegar por la red de documentos con _hipertexto_ se usa un programa llamado _browser_, donde se puede colocar la dirección de la página (o _URL_) y saltar a nuevas direcciones usando los links.
 
-El uso de la web se liberó y pronto se extendió a otras comunidades académicas, universidades, y por todo el mundo.
+Cuando el uso de la web se liberó, pronto se extendió a otras comunidades académicas, universidades, y por todo el mundo.
 
 
 ## Estilos
 
-Muchos medios de comunicación, como diarios y revistas, experimentaron publicar en la web e impulsaron mejoras en el lenguaje HTML.
+Medios de comunicación tradicionales como diarios y revistas, experimentaron publicar en la web e impulsaron propuestas para mejorar la presentación de las páginas web.
 
 Las **hojas de estilo** [CSS](https://www.w3schools.com/css/) aparecieron para permitir un manejo más eficiente del diseño gráfico de una página web.
 
@@ -31,9 +31,24 @@ Empresas como **Microsoft**, con [Internet Explorer](https://es.wikipedia.org/wi
 Así, HTML, CSS y Javascript se convirtieron en el trío necesario para construir una página web.
 
 
+## Páginas, sitios, aplicaciones
+
+Primero se trató de **páginas web** (_web pages_), documentos de hipertexto.
+
+Luego, se trató de **sitios web** (_web sites_), que es un conjunto de páginas relacionadas. Por ejemplo, el site de una revista.
+
+Después, se trató de **aplicaciones web** (_web apps_), que es un sitio web organizado como una aplicación con la que puede interactuar el usuario. Por ejemplo, una tienda online.
+
+
 ## Servers
 
-El HTML de las páginas web es servida a los browsers desde computadoras llamadas **servidores web**.
+El código HTML de las páginas web es servido a los browsers desde computadoras llamadas **servidores web**.
+
+El browser es un interprete que procesa ese código y construye la página web en consecuencia.
+
+::: info
+Aunque HTML no es un lenguaje de programación imperativo, como C o Java, es un lenguaje de programación declarativo, que usa etiquetas para indicar lo que hay que hacer. 
+:::
 
 Cada petición de un URL es resuelta por la web usando el protocolo _HTTP_, que determina qué servidor tiene alojada la página y conduce su respuesta hasta el browser que hizo la solicitud.
 
@@ -49,13 +64,15 @@ Entre los lenguajes más populares para hacer esto están: [Perl](https://www.pe
 Los servidores con soporte para PHP suelen ser los más económicos y populares.
 
 
-## Modelo Vista Controlador
+::: info
+### Modelo Vista Controlador
 
 Conforme se asumía el desarrollo de aplicaciones web más complejas, se adoptaron estrategias para manejar el código.
 
 Modelo Vista Controlador (ó _MVC_) consiste en separar el código encargado de generar la página (**Vista**) del código que describe la **lógica del negocio** (**Modelo**) y del código que atiende las solicitudes (**Controlador**).
 
 Esto ayuda a volver el código más comprensible y mantenible.
+:::
 
 
 ## Web 2.0
@@ -87,20 +104,6 @@ Frameworks javascript como [Meteor](https://www.meteor.com/), [Angular](https://
 **[Bun.js](https://bun.sh/)** ha aparecido como alternativa a Node.js. Compatible y más rápida.
 
 
-## Preferencias al desarrollar
-
-- Evitar las soluciones caras si hay alguna más económica disponible.
-	- Por ejemplo, es costoso e innecesario validar una idea con una infraestructura completa de producción corriendo.
-		- Se corre el riesgo de que la validación no apruebe propuestas que han significado muchas horas y esfuerzo.
-		- Hace costoso y doloroso cada cambio.
-			- Crea resistencia al cambio.
-	- Es mejor usar mockups para proveer data que aún no ha sido validada.
-	- Es mejor usar bocetos para describir componentes que aún no han sido validados.
-	- Es mejor usar descripciones para ideas que aún no han sido validadas.
-- Que una solución no obstruya las siguientes.
-- Es mejor implementar algo aproximado y que llegue a correr que buscar algo perfecto que no se logrará implementar.
-
-
 ## Agile
 
 - En el **ambiente académico** (como el de los tutoriales), se usa un flujo de trabajo propio de **tareas** que son **determinadas** y **bien conocidas**.
@@ -109,7 +112,24 @@ Frameworks javascript como [Meteor](https://www.meteor.com/), [Angular](https://
 - [Agile]([What is Agile? | Agile 101 | Agile Alliance](https://www.agilealliance.org/agile101/)) trata de **manejar la incertidumbre** y entregar lo mejor que se pueda producir, con los materiales disponibles, en el tiempo disponible.
 
 
-## Contextos
+::: tip
+### Al desarrollar:
+
+- Evitar las soluciones caras si hay alguna más económica disponible.
+	- Por ejemplo, es costoso e innecesario validar una idea con una infraestructura completa de producción corriendo.
+		- Se corre el riesgo de que la validación no apruebe propuestas que han significado muchas horas y esfuerzo.
+		- Hace costoso y doloroso cada cambio.
+			- Crea resistencia al cambio.
+	- Es mejor usar **mockups** para proveer data que aún no ha sido validada.
+	- Es mejor usar **bocetos** para describir componentes que aún no han sido validados.
+	- Es mejor usar **descripciones** para ideas que aún no han sido validadas.
+- Que una solución no obstruya las siguientes.
+- Es mejor implementar algo aproximado y que llegue a correr que buscar algo perfecto que no se logrará implementar.
+:::
+
+
+::: info
+### Contextos
 
 - Se puede considerar los siguientes estados:
 	- Idea
@@ -132,9 +152,11 @@ Frameworks javascript como [Meteor](https://www.meteor.com/), [Angular](https://
 	- En el contexto de producción, se valida si la solución funciona como se espera.
 - Estos estados se aplican tanto para la aplicación en general como para cada feature que se desea implementar.
 - Es normal que se tengan que repetir ciclos total o parcialmente mientras se van haciendo descubrimientos y va cobrando forma la solución.
+:::
 
 
-## Desarrollando
+::: tip
+### Desarrollo progresivo
 
 - Se elige alguna parte relevante de la solución
 - Se valida la idea
@@ -175,6 +197,7 @@ Frameworks javascript como [Meteor](https://www.meteor.com/), [Angular](https://
 		- Servicios: Implementa business logic con datos del repositorio
 		- Repositorios: Base de datos
 - Se sigue este esquema para cada feature y para la aplicación en general.
+:::
 
 
 
