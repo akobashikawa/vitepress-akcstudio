@@ -33,11 +33,11 @@ hero:
       link: https://www.slideshare.net/akobashikawa/
 
 features:
-  - title: Frontend
+  - title: <a href="frontend">Frontend</a>
     details: HTML, CSS, Javascript, Bootstrap, Vue, React, Angular
-  - title: Backend
+  - title: <a href="backend">Backend</a>
     details: Node.js, Express.js, PHP, Java, Spring Boot
-  - title: Devops
+  - title: <a href="devops">Devops</a>
     details: Git, Github, Jenkins, Linux, Windows
 ---
 
