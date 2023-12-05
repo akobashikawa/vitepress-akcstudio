@@ -4,31 +4,15 @@ El desarrollo web está enfocado en el desarrollo de páginas web, sitios web y 
 
 **La web** es la parte de internet construida en torno a contenido _HTML_, que se transmite usando principalmente el protocolo _HTTP_.
 
-## Hipertexto
+::: tip
+El software puede ser como un espejismo. Más importante que el software es el proceso para realizar el software.
 
-El origen de la web se remonta hacia fines de la década de 1980, cuando [Tim Berners-Lee](https://es.wikipedia.org/wiki/Tim_Berners-Lee) lideró un proyecto del [CERN](https://es.wikipedia.org/wiki/Organizaci%C3%B3n_Europea_para_la_Investigaci%C3%B3n_Nuclear) para ayudar a la comunidad de científicos a compartir sus publicaciones.
+El logro puede ser como un espejismo. Más importante que el logro es el proceso para realizar ese logro.
 
-Se creó el lenguaje [HTML](https://www.w3schools.com/html/), con capacidades básicas para formatear el texto y hacer **hipervínculos**, o _links_ entre páginas, lo que permitía tejer una red de documentos donde se podía saltar fácilmente de uno a otro.
+Es como cuando recién aprendes a nadar y solamente quieres alcanzar la otra orilla. Luego, aprendes a tomar aire regularmente, a saber cómo flotar indefinidamente, o cómo sumergirte a voluntad. Entonces, ves que hay otras orillas que puedes alcanzar, y se abre un mar de posibilidades.
+:::
 
-Esta red les pareció similar a una telaraña y se bautizó como _World Wide Web_ (_WWW_, o _La Web_).
-
-Para navegar por la red de documentos con _hipertexto_ se usa un programa llamado _browser_, donde se puede colocar la dirección de la página (o _URL_) y saltar a nuevas direcciones usando los links.
-
-Cuando el uso de la web se liberó, pronto se extendió a otras comunidades académicas, universidades, y por todo el mundo.
-
-
-## Estilos
-
-Medios de comunicación tradicionales como diarios y revistas, experimentaron publicar en la web e impulsaron propuestas para mejorar la presentación de las páginas web.
-
-Las **hojas de estilo** [CSS](https://www.w3schools.com/css/) aparecieron para permitir un manejo más eficiente del diseño gráfico de una página web.
-
-
-## Acciones
-
-Empresas como **Microsoft**, con [Internet Explorer](https://es.wikipedia.org/wiki/Internet_Explorer), y **Netscape**, con [Navigator](https://es.wikipedia.org/wiki/Netscape_Navigator), compitieron por tener el mejor browser, impulsando el desarrollo de [javascript](https://www.javascript.com/), un lenguaje de programación para manipular los componentes de una página web.
-
-Así, HTML, CSS y Javascript se convirtieron en el trío necesario para construir una página web.
+[Breve Historia de la Web](web-historia)
 
 
 ## Páginas, sitios, aplicaciones
@@ -37,21 +21,45 @@ Primero se trató de **páginas web** (_web pages_), documentos de hipertexto.
 
 Luego, se trató de **sitios web** (_web sites_), que es un conjunto de páginas relacionadas. Por ejemplo, el site de una revista.
 
-Después, se trató de **aplicaciones web** (_web apps_), que es un sitio web organizado como una aplicación con la que puede interactuar el usuario. Por ejemplo, una tienda online.
+Después, se trató de **aplicaciones web** (_web apps_), que es un sitio web organizado como una aplicación, con la que puede interactuar el usuario. Por ejemplo, una tienda online.
 
 
 ## Servers
 
 El código HTML de las páginas web es servido a los browsers desde computadoras llamadas **servidores web**.
 
-El browser es un interprete que procesa ese código y construye la página web en consecuencia.
+::: info
+Cada servidor web tiene un **ip**, que es un conjunto de números que permite localizarlo.
+
+También puede tener un **dominio**, que es un nombre que se puede usar en lugar del ip.
+
+Cada página y recurso web tiene un **URL**, que es la dirección que permite localizarla en la web.
+:::
+
+El browser es un interprete que procesa el código que recibe para construir la página web que vemos.
 
 ::: info
-Aunque HTML no es un lenguaje de programación imperativo, como C o Java, es un lenguaje de programación declarativo, que usa etiquetas para indicar lo que hay que hacer. 
+Aunque HTML no es un lenguaje de programación _imperativo_, como C o Java, es un lenguaje de programación _declarativo_, que usa etiquetas para indicar lo que hay que hacer. 
 :::
 
 Cada petición de un URL es resuelta por la web usando el protocolo _HTTP_, que determina qué servidor tiene alojada la página y conduce su respuesta hasta el browser que hizo la solicitud.
 
+::: info
+**Hosting** es el servicio de alojar contenido web.
+
+El hosting de un servidor windows es más caro por el pago de las licencias involucradas.
+
+En comparación, el hosting de un servidor linux es mucho más económico.
+
+Los servicios de hosting más populares y económicos son los que corren en un servidor linux compartido y ofrecen soporte directo para PHP.
+:::
+
+
+::: tip
+Un **VPS** (Virtual Private Server) es una solución más elegante y estable, y tan económica, como el hosting compartido, aunque requiere mayor conocimiento técnico para manejarlo.
+
+En un VPS, se puede instalar soporte para PHP, Java, Node, etc, además de herramientas y aplicaciones que normalmente no están disponibles en el hosting compartido. También suele tener opciones para manejar dominios y subdominios, entre otras cosas.
+:::
 
 ## Estático y dinámico
 
@@ -59,9 +67,7 @@ La forma más simple de hacer una página web es un archivo de texto HTML que es
 
 Una forma más sofisticada de servir una página es con un programa que construya nuevo HTML cada vez que se necesita. Así, el contenido de la página es **dinámico**, cambiando según sea el caso.
 
-Entre los lenguajes más populares para hacer esto están: [Perl](https://www.perl.org/), [Java](https://www.java.com/es/), [PHP](https://www.php.net/), [Python](https://www.python.org/) y Javascript (que gracias a [Node.js](https://nodejs.org/en/) también puede correr en el lado del servidor).
-
-Los servidores con soporte para PHP suelen ser los más económicos y populares.
+Entre los lenguajes más populares para hacer esto han figurado: [Perl](https://www.perl.org/), [Java](https://www.java.com/es/), [PHP](https://www.php.net/), [Python](https://www.python.org/) y [Javascript](https://www.javascript.com/) (que gracias a [Node.js](https://nodejs.org/en/) también puede correr en el lado del servidor).
 
 
 ::: info

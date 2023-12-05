@@ -6,6 +6,8 @@ hero:
   name: "AKC Studio"
   text: explore | thinking | tinkering | playing | solving | dev | learning
   tagline: Soy Antonio Kobashikawa Carrasco (Rulo). Trabajo en desarrollo web.
+  image:
+    src: /img/webdev-logo.png
   actions:
     # - theme: brand
     #   text: Markdown Examples

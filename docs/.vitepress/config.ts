@@ -8,10 +8,11 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Dev', link: '/webdev' },
+      { text: 'WebDev', link: '/webdev' },
       { text: 'Frontend', link: '/frontend' },
       { text: 'Backend', link: '/backend' },
       { text: 'Devops', link: '/devops' },
+      { text: 'Acerca', link: '/about' },
       // { text: 'Examples', link: '/markdown-examples' }
     ],
 
@@ -20,9 +21,10 @@ export default defineConfig({
         text: 'Dev',
         items: [
           { text: 'WebDev', link: '/webdev' },
-          { text: 'Frontend', link: '/frontend' },
+          { text: 'Frontend', link: '/frontend'},
           { text: 'Backend', link: '/backend' },
           { text: 'Devops', link: '/devops' },
+          { text: 'Cambios', link: '/changes' },
         ]
       },
       // {
