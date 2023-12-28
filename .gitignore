@@ -176,3 +176,6 @@ dist
 
 _res
 .obsidian
+
+.vscode
+docs/.vitepress/cache
