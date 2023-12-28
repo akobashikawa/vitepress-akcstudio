@@ -72,13 +72,14 @@ Entre los lenguajes más populares para hacer páginas dinámicas han figurado: 
 
 
 ::: info
-### Frameworks
 
 Cuando se desarrolla aplicaciones complejas, es fácil enredarse. Fueron apareciendo propuestas de programadores con experiencia para tratar con esta complejidad.
 
-Un framework plantea una forma de organizar el código para que sea más comprensible y mantenible.
+Una **biblioteca** (o librería) es un conjunto de utilidades que resuelven ciertas cuestiones y podemos aprovechar para no tener que resolverlos todo.
 
-Por ejemplo una estrategia de organización usada por muchos frameworks es **Modelo Vista Controlador** (ó _MVC_), que consiste en separar el código encargado de generar la página (**Vista**) del código que describe la **lógica del negocio** (**Modelo**) y del código que atiende las solicitudes (**Controlador**).
+Un **framework** plantea una forma de organizar el código, o incluso una forma de plantear el proceso de desarrollo, para que sea más comprensible y mantenible.
+
+Una estrategia de organización usada por muchos frameworks ha sido **Modelo Vista Controlador** (ó _MVC_), que consiste en separar el código encargado de generar la página (**Vista**) del código que describe la **lógica del negocio** (**Modelo**) y del código que atiende las solicitudes (**Controlador**).
 
 :::
 
