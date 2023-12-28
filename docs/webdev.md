@@ -20,6 +20,8 @@ El código HTML para mostrar una página web es enviado a los navegadores desde 
 
 El navegador interpreta el HTML para mostrarnos la página web.
 
+El navegador y los servidores se comunican usando el protocolo _HTTP_.
+
 
 ::: info
 
@@ -37,8 +39,6 @@ Cada página y cada recurso web tiene un **URL**, que es la dirección que permi
 HTML no es un lenguaje de programación _imperativo_, como C o Java, pero es un lenguaje de programación _declarativo_, que usa etiquetas para indicar lo que hay que hacer. 
 
 :::
-
-El navegador y los servidores se comunican usando el protocolo _HTTP_.
 
 
 ::: info
