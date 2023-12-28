@@ -75,11 +75,9 @@ Entre los lenguajes más populares para hacer páginas dinámicas han figurado: 
 
 Cuando se desarrolla aplicaciones complejas, es fácil enredarse. Fueron apareciendo propuestas de programadores con experiencia para tratar con esta complejidad.
 
-Una **biblioteca** (o librería) es un conjunto de utilidades que resuelven ciertas cuestiones y podemos aprovechar para no tener que resolverlos todo.
+Una **biblioteca** (o librería) es un conjunto de utilidades que resuelven ciertas cuestiones y podemos aprovechar para no tener que resolverlo todo.
 
 Un **framework** plantea una forma de organizar el código, o incluso una forma de plantear el proceso de desarrollo, para que sea más comprensible y mantenible.
-
-Una estrategia de organización usada por muchos frameworks ha sido **Modelo Vista Controlador** (ó _MVC_), que consiste en separar el código encargado de generar la página (**Vista**) del código que describe la **lógica del negocio** (**Modelo**) y del código que atiende las solicitudes (**Controlador**).
 
 :::
 
@@ -96,29 +94,27 @@ También redes sociales, como **Facebook**, **Youtube**, **Instagram**, y **TikT
 
 ## AJAX
 
-Normalmente, una solicitud web recibe una respuesta que hace que el browser actualice la vista completa de la página.
+Normalmente, cuando el navegador pide algo al server y recibe una respuesta, esta respuesta significar cargar una nueva página o recargar la página existente.
 
-[AJAX](https://www.w3schools.com/xml/ajax_intro.asp) es una técnica javascript que permite que el navegador pueda actualizar partes de la vista de manera independiente.
+[AJAX](https://www.w3schools.com/xml/ajax_intro.asp) es una técnica que usa javascript para que el navegador pueda recibir respuestas del server sin tener que actualizar toda la página.
 
-Esto animó a los desarrolladores a hacer aplicaciones que puedan sentirse más como una aplicación de escritorio, sin los parpadeos y recargas propias de una página web tradicional.
+Esto permite hacer aplicaciones que se sienten más como una aplicación de escritorio.
 
 
 ## Frontend y Backend
 
-AJAX también permitió que se pueda separar completamente el desarrollo de la interfaz de usuario por un lado (_frontend_), y que por otro lado el servidor pueda especializarse en realizar la lógica del negocio y proveer los datos (_backend_).
+Con AJAX, ya no es necesario reconstruir la página cada vez que se responde, sino solo los datos que produzcan algún cambio.
 
-Frameworks javascript como [Meteor](https://www.meteor.com/), [Angular](https://angular.io/), [React](https://react.dev/) y [Vue](https://vuejs.org/) han permitido construir **SPA** ([Single Page Application](https://es.wikipedia.org/wiki/Single-page_application)) que es una aplicación web cuyo HTML es generado por javascript, dinámicamente, en el browser.
+Entonces, se vio conveniente organizar el desarrollo de modo que la parte de la interfaz de usuario se haga por un lado (el **frontend**) y la del manejo y envío de datos por otro lado (el **backend**).
 
-**[Node.js](https://nodejs.org/en/)** es javascript corriendo en el lado del servidor. Así, actualmente es posible construir aplicaciones web, frontend y backend, usando un único lenguaje de programación e incluso compartiendo bibliotecas.
-
-**[Bun.js](https://bun.sh/)** ha aparecido como alternativa a Node.js. Compatible y más rápida.
+Así, aparecieron frameworks frontend como [Meteor](https://www.meteor.com/), [Angular](https://angular.io/), [React](https://react.dev/) y [Vue](https://vuejs.org/), que permiten construir aplicaciones con interfaces muy sofisticadas.
 
 
 ## Agile
 
 - En el **ambiente académico** (como el de los tutoriales), se usa un flujo de trabajo propio de **tareas** que son **determinadas** y **bien conocidas**.
-- En el **mundo real**, lo usual es que haya **problemas indeterminados** y haya muchas partes **desconocidas**.
-	  - También es frecuente la necesidad de **cambiar**, agrega o quitar, objetivos o características, en el transcurso del desarrollo.
+- En el **mundo real**, lo usual es que haya **problemas**, cuestiones indeterminadas, con partes **desconocidas**.
+	  - También es frecuente la necesidad de **cambiar**, agregar o quitar, objetivos o características, en el transcurso del desarrollo.
 - [Agile]([What is Agile? | Agile 101 | Agile Alliance](https://www.agilealliance.org/agile101/)) trata de **manejar la incertidumbre** y entregar lo mejor que se pueda producir, con los materiales disponibles, en el tiempo disponible.
 
 ::: tip
