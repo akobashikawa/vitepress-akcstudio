@@ -6,80 +6,91 @@ El desarrollo web está enfocado en páginas web, sitios web y aplicaciones web.
 
 [Breve Historia de la Web](web-historia)
 
-
 ## Páginas, sitios, aplicaciones
 
-Primero se trató de **páginas web** (_web pages_), documentos de hipertexto.
+Primero se trató de *hacer* **páginas web** (_web pages_), que son documentos de hipertexto, donde uno puede saltar de página en página.
 
-Luego, se trató de **sitios web** (_web sites_), que es un conjunto de páginas relacionadas. Por ejemplo, el site de una revista.
+Luego, se trató de *agrupar* las páginas en **sitios web** (_web sites_), para tener un conjunto de páginas relacionadas. Por ejemplo, el sitio web de una revista.
 
-Después, se trató de **aplicaciones web** (_web apps_), que es un sitio web organizado como una aplicación, con la que puede interactuar el usuario. Por ejemplo, una tienda online.
-
+Después, se trató de *programar* **aplicaciones web** (_web apps_), que son páginas web organizadas como una aplicación. Por ejemplo, una tienda online.
 
 ## Servers
 
-El código HTML de las páginas web es servido a los browsers desde computadoras llamadas **servidores web**.
+El código HTML para mostrar una página web es enviado a los navegadores desde computadoras llamadas **servidores web**.
+
+El navegador interpreta el HTML para mostrarnos la página web.
+
 
 ::: info
-Cada servidor web tiene un **ip**, que es un conjunto de números que permite localizarlo.
 
-También puede tener un **dominio**, que es un nombre que se puede usar en lugar del ip.
+Cada servidor web tiene una **dirección ip**, que es un conjunto de números que permite localizarlo. Por ejemplo, 67.207.84.142
 
-Cada página y recurso web tiene un **URL**, que es la dirección que permite localizarla en la web.
+También puede tener un **dominio**, que es un nombre que se puede usar en lugar del ip. Por ejemplo, akcstudio.online
+
+Cada página y cada recurso web tiene un **URL**, que es la dirección que permite localizarla en la web. Por ejemplo, https://akcstudio.online/webdev.html
+
 :::
 
-El browser es un interprete que procesa el código que recibe para construir la página web que vemos.
 
 ::: info
-Aunque HTML no es un lenguaje de programación _imperativo_, como C o Java, es un lenguaje de programación _declarativo_, que usa etiquetas para indicar lo que hay que hacer. 
+
+HTML no es un lenguaje de programación _imperativo_, como C o Java, pero es un lenguaje de programación _declarativo_, que usa etiquetas para indicar lo que hay que hacer. 
+
 :::
 
-Cada petición de un URL es resuelta por la web usando el protocolo _HTTP_, que determina qué servidor tiene alojada la página y conduce su respuesta hasta el browser que hizo la solicitud.
+El navegador y los servidores se comunican usando el protocolo _HTTP_.
+
 
 ::: info
-**Hosting** es el servicio de alojar contenido web.
 
-El hosting de un servidor windows es más caro por el pago de las licencias involucradas.
+**Hosting** es como se llama al servicio de alojar contenido web.
+
+El hosting de un servidor windows suele ser más caro por el pago de las licencias involucradas.
 
 En comparación, el hosting de un servidor linux es mucho más económico.
 
-Los servicios de hosting más populares y económicos son los que corren en un servidor linux compartido y ofrecen soporte directo para PHP.
+Los servicios de hosting más populares y económicos suelen ser los que corren en un servidor linux con soporte para PHP.
+
 :::
 
 
 ::: tip
-Un **VPS** (Virtual Private Server) es una solución más elegante y estable, y tan económica, como el hosting compartido, aunque requiere mayor conocimiento técnico para manejarlo.
 
-En un VPS, se puede instalar soporte para PHP, Java, Node, etc, además de herramientas y aplicaciones que normalmente no están disponibles en el hosting compartido. También suele tener opciones para manejar dominios y subdominios, entre otras cosas.
+Un **VPS** (Virtual Private Server) es un servidor que no se comparte con otros usuarios. No se trata de una máquina física, que sería más cara, sino virtual.
+
+En un VPS, se tiene el poder de instalar lo que se desee. PHP, Java, Node, etc, además de herramientas y aplicaciones que normalmente no están disponibles en un hosting compartido. También suele haber opciones para manejar dominios y subdominios, entre otras cosas.
+
 :::
 
 ## Estático y dinámico
 
-La forma más simple de hacer una página web es un archivo de texto HTML que es servido tal cuál.
+La forma más simple de hacer una página web es un archivo de texto HTML y enviarlo al navegador tal cuál. Ese tipo de página se llaman **estática**.
 
-Una forma más sofisticada de servir una página es con un programa que construya nuevo HTML cada vez que se necesita. Así, el contenido de la página es **dinámico**, cambiando según sea el caso.
+Una forma más sofisticada de servir una página web es hacer un programa que construya nuevo HTML cada vez que se necesita. Eso se conoce como página  **dinámica**.
 
-Entre los lenguajes más populares para hacer esto han figurado: [Perl](https://www.perl.org/), [Java](https://www.java.com/es/), [PHP](https://www.php.net/), [Python](https://www.python.org/) y [Javascript](https://www.javascript.com/) (que gracias a [Node.js](https://nodejs.org/en/) también puede correr en el lado del servidor).
+Entre los lenguajes más populares para hacer páginas dinámicas han figurado: [Perl](https://www.perl.org/), [Java](https://www.java.com/es/), [PHP](https://www.php.net/), [Python](https://www.python.org/) y [Javascript/Node.js](https://nodejs.org/) .
 
 
 ::: info
-### Modelo Vista Controlador
+### Frameworks
 
-Conforme se asumía el desarrollo de aplicaciones web más complejas, se adoptaron estrategias para manejar el código.
+Cuando se desarrolla aplicaciones complejas, es fácil enredarse. Fueron apareciendo propuestas de programadores con experiencia para tratar con esta complejidad.
 
-Modelo Vista Controlador (ó _MVC_) consiste en separar el código encargado de generar la página (**Vista**) del código que describe la **lógica del negocio** (**Modelo**) y del código que atiende las solicitudes (**Controlador**).
+Un framework plantea una forma de organizar el código para que sea más comprensible y mantenible.
 
-Esto ayuda a volver el código más comprensible y mantenible.
+Por ejemplo una estrategia de organización usada por muchos frameworks es **Modelo Vista Controlador** (ó _MVC_), que consiste en separar el código encargado de generar la página (**Vista**) del código que describe la **lógica del negocio** (**Modelo**) y del código que atiende las solicitudes (**Controlador**).
+
 :::
-
 
 ## Web 2.0
 
-Se denominó así a la web que surgió cuando los usuarios pudieron **afectar activamente el contenido**, en lugar de simplemente consumirlo pasivamente.
+Al inicio, los usuarios de la web simplemente eran lectores.
 
-**Wikis** (catálogo comunitario), **blogs** (diarios personales), y **CMS** (administradores de contenido), son tipos de aplicaciones que permiten subir contenido propio.
+Cuando las aplicaciones web permitieron que los usuarios pudieran alterar lo publicado y convertirse en autores, se dio a ese estado el nombre Web 2.0.
 
-Hay además redes sociales, como **Facebook**, **Youtube**, **Instagram**, y **TikTok**, que facilitan la publicación de contenido multimedia.
+Por ejemplo, los **Wikis** (catálogo comunitario), **blogs** (diarios personales), y **CMS** (administradores de contenido), son tipos de aplicaciones que permiten subir contenido propio.
+
+También redes sociales, como **Facebook**, **Youtube**, **Instagram**, y **TikTok**, facilitan la publicación de contenido multimedia.
 
 
 ## AJAX
