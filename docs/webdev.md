@@ -1,16 +1,8 @@
 # Desarrollo Web
 
-El desarrollo web está enfocado en el desarrollo de páginas web, sitios web y aplicaciones web.
+El desarrollo web está enfocado en páginas web, sitios web y aplicaciones web.
 
-**La web** es la parte de internet construida en torno a contenido _HTML_, que se transmite usando principalmente el protocolo _HTTP_.
-
-::: tip
-El software puede ser como un espejismo. Más importante que el software es el proceso para realizar el software.
-
-El logro puede ser como un espejismo. Más importante que el logro es el proceso para realizar ese logro.
-
-Es como cuando recién aprendes a nadar y solamente quieres alcanzar la otra orilla. Luego, aprendes a tomar aire regularmente, a saber cómo flotar indefinidamente, o cómo sumergirte a voluntad. Entonces, ves que hay otras orillas que puedes alcanzar, y se abre un mar de posibilidades.
-:::
+**La web** es, básicamente, la parte de internet construida en torno a contenido _HTML_.
 
 [Breve Historia de la Web](web-historia)
 
@@ -117,19 +109,27 @@ Frameworks javascript como [Meteor](https://www.meteor.com/), [Angular](https://
 	  - También es frecuente la necesidad de **cambiar**, agrega o quitar, objetivos o características, en el transcurso del desarrollo.
 - [Agile]([What is Agile? | Agile 101 | Agile Alliance](https://www.agilealliance.org/agile101/)) trata de **manejar la incertidumbre** y entregar lo mejor que se pueda producir, con los materiales disponibles, en el tiempo disponible.
 
+::: tip
+### Procesos sobre productos
+
+Aunque el motivo es el software, centrarse en el software no suele ser la mejor estrategia.
+
+Para repetirlo, más importante que el software es el proceso para realizar el software.
+
+:::
 
 ::: tip
 ### Al desarrollar:
 
 - Evitar las soluciones caras si hay alguna más económica disponible.
-	- Por ejemplo, es costoso e innecesario validar una idea con una infraestructura completa de producción corriendo.
-		- Se corre el riesgo de que la validación no apruebe propuestas que han significado muchas horas y esfuerzo.
+	- Por ejemplo, suele ser costoso e innecesario validar una idea con una infraestructura completa corriendo.
 		- Hace costoso y doloroso cada cambio.
 			- Crea resistencia al cambio.
-	- Es mejor usar **mockups** para proveer data que aún no ha sido validada.
-	- Es mejor usar **bocetos** para describir componentes que aún no han sido validados.
+	- Es mejor dividir el desarrollo en etapas que permitan validaciones parciales más económicas.
 	- Es mejor usar **descripciones** para ideas que aún no han sido validadas.
-- Que una solución no obstruya las siguientes.
+	- Es mejor usar **bocetos** para describir componentes que aún no han sido validados.
+	- Es mejor usar **mockups** para proveer data que aún no ha sido validada.
+- Que una solución no obstruya las siguientes soluciones.
 - Es mejor implementar algo aproximado y que llegue a correr que buscar algo perfecto que no se logrará implementar.
 :::
 
@@ -150,7 +150,7 @@ Frameworks javascript como [Meteor](https://www.meteor.com/), [Angular](https://
 	- La maqueta debe ser validada antes de pasar a programar
 	- La programación debe ser validada antes de pasar a producción
 - Los criterios de evaluación son determinados por el estado
-	- Por ejemplo, no es util usar criterios de producción en el contexto de una idea.
+	- Por ejemplo, no es útil usar criterios de producción en el contexto de una idea.
 	- En el contexto de una idea, se valida la idea de la solución.
 	- En el contexto de un boceto, se valida si algo va o no va en cierta area aproximada.
 	- En el contexto de una maqueta, se valida la disposición de los componentes.
@@ -166,43 +166,31 @@ Frameworks javascript como [Meteor](https://www.meteor.com/), [Angular](https://
 
 - Se elige alguna parte relevante de la solución
 - Se valida la idea
-	- Frontend: en espera
-	- Backend: en espera
 - Se valida el boceto
-	- Frontend: en espera
-	- Backend: en espera
 - Se valida la maqueta
 	- Frontend
-		- Se valida el componente colocado según el boceto
 		- Se muestran datos hardcodeados
-	- Backend
-		- En espera
 - Se valida la API
 	- Frontend
-		- Reemplazo datos hardcodeados por endpoints
+		- Se muestran datos provenientes de endpoints
 	- Backend
 		- Controladores: Provee endpoint con datos hardcodeados
-		- Servicios: En espera
-		- Repositorios: En espera
 - Se valida business logic
-	- Frontend: Usa endpoints
 	- Backend
-		- Controladores: Provee endpoint con datos del service
+		- Controladores: Provee endpoint con datos de servicios
 		- Servicios: Implementa business logic con datos hardcodeados
-		- Repositorios: En espera
 - Se valida datos
-	- Frontend: Usa endpoints
 	- Backend
-		- Controladores: Provee endpoint con datos del service
+		- Controladores: Provee endpoint con datos de servicios
 		- Servicios: Implementa business logic con datos del repositorio
-		- Repositorios: Datos mockup
+		- Repositorios: Datos hardcodeados
 - Se valida conectividad con base de datos
-	- Frontend: Usa endpoints
 	- Backend
-		- Controladores: Provee endpoint con datos del service
+		- Controladores: Provee endpoint con datos de servicios
 		- Servicios: Implementa business logic con datos del repositorio
 		- Repositorios: Base de datos
 - Se sigue este esquema para cada feature y para la aplicación en general.
+
 :::
 
 

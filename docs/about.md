@@ -6,7 +6,6 @@
   - Trabajo en desarrollo web. Frontend, backend, devops.
   - En AKC Studio voy haciendo un compendio de los temas que suelo manejar o me parecen interesantes de desarrollar.
 
-
 ## Qué se usa
 
 ### Plan
