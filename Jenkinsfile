@@ -13,5 +13,14 @@ cp -r /var/lib/jenkins/workspace/vitepress-akcstudio/docs/.vitepress/dist/* /var
       }
     }
 
+    stage('Pre') {
+      steps {
+        sh '''whoami
+pwd
+echo $PATH
+echo $HOME'''
+      }
+    }
+
   }
 }
