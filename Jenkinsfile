@@ -6,7 +6,8 @@ pipeline {
         sh '''whoami
 pwd
 echo $PATH
-echo $HOME'''
+echo $HOME
+node --version'''
       }
     }
 
