@@ -115,14 +115,18 @@ timeline
         : Bootstrap
         : Vue
         : Express
+        : MongoDB
   2021-HOY : Jenkins
         : Docker
         : Spring Boot
         : Angular
+        : Vite
         : Vitepress
+        : ChatGPT
+        : SQL Server
+        : Sqlite
         : Clojure
         : Nest
-        : ChatGPT
 
   
 ```
