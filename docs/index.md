@@ -73,4 +73,57 @@ mindmap
       Linux
       Jenkins
 ```
+
+```mermaid
+
+timeline
+  title Timeline
+  1986 : Basic
+  1990-1997 : MSDOS
+        : Turbo Pascal
+        : Lotus 123
+        : Norton Utilities
+        : Novell Netware
+        : Windows
+        : Internet
+  1998-2004 : HTML
+        : Linux
+        : Java
+        : MySQL
+        : CSS
+        : Google
+  2005-2009 : Delphi
+        : PHP
+        : Java Struts
+        : PHP Cake
+        : Subversion
+        : Scriptaculous
+        : Drupal
+  2010-2015 : Agile Scrum
+        : jQuery
+        : Wordpress
+        : Less
+        : Git
+        : Django
+        : Node
+        : Digital Ocean
+        : Ubuntu
+        : Kanban
+  2016-2020 : AngularJS
+        : Sass
+        : React
+        : Bootstrap
+        : Vue
+        : Express
+  2021-HOY : Jenkins
+        : Docker
+        : Spring Boot
+        : Angular
+        : Vitepress
+        : Clojure
+        : Nest
+        : ChatGPT
+
+  
+```
 </center>
