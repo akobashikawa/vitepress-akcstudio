@@ -1,10 +1,48 @@
 # Desarrollo Web
 
+
+```mermaid
+
+mindmap
+  root((Web Dev))
+    Origenes
+      Hipertexto
+        HTML
+      Estilos
+        CSS
+      Acciones
+        Javascript
+    Tipos de página
+      Estático
+      Dinámico
+    Area
+      Frontend
+        Interfaz
+      Backend
+        Data
+    Bibliotecas
+      Frontend
+        Bootstrap
+        jQuery
+      Backend
+        Lodash
+    Frameworks
+      Frontend
+        Vue
+        Angular
+        React
+      Backend
+        Express
+        Spring Boot
+
+```
+
 El desarrollo web está enfocado en páginas web, sitios web y aplicaciones web.
 
 **La web** es, básicamente, la parte de internet construida en torno a contenido _HTML_.
 
 [Breve Historia de la Web](web-historia)
+
 
 ## Páginas, sitios, aplicaciones
 
@@ -21,6 +59,11 @@ El código HTML para mostrar una página web es enviado a los navegadores desde 
 El navegador interpreta el HTML para mostrarnos la página web.
 
 El navegador y los servidores se comunican usando el protocolo _HTTP_.
+
+```mermaid
+flowchart LR
+  Servidor <---> Navegador
+```
 
 
 ::: info

@@ -43,3 +43,34 @@ features:
     details: Git, Github, Jenkins, Linux, Windows
 ---
 
+<center>
+
+```mermaid
+
+mindmap
+  root((AKC))
+    Frontend
+      HTML
+        Bootstrap
+      CSS
+        Sass
+      Javascript
+        jQuery
+        Vue
+          Vite
+          Vitepress
+        Angular
+        React
+    Backend
+      Node
+        Express
+      PHP
+      Java
+        Spring Boot
+    Devops
+      Git
+      Windows
+      Linux
+      Jenkins
+```
+</center>
