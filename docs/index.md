@@ -51,7 +51,6 @@ mindmap
   root((AKC))
     Frontend
       HTML
-        Bootstrap
       CSS
         Sass
       Javascript
@@ -61,6 +60,8 @@ mindmap
           Vitepress
         Angular
         React
+      Themes
+        Bootstrap
     Backend
       Node
         Express
@@ -72,6 +73,9 @@ mindmap
       Windows
       Linux
       Jenkins
+      Hosting
+        DigitalOcean
+        Netlify
 ```
 
 ```mermaid
