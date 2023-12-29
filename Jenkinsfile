@@ -27,7 +27,7 @@ npm run docs:build'''
 
     stage('Copy') {
       steps {
-        sh '''cp -r /var/lib/jenkins/workspace/vitepress-akcstudio-pipeline/docs/.vitepress/dist/* /var/www/html/akcstudio.online/'''
+        sh '''cp -r /var/lib/jenkins/workspace/epress-akcstudio-pipeline_master/docs/.vitepress/dist/* /var/www/html/akcstudio.online/'''
       }
     }
 
