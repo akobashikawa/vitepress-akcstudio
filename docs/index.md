@@ -101,7 +101,7 @@ timeline
         : Java Struts
         : PHP Cake
         : Subversion
-        : Scriptaculous
+        : Prototype
         : Drupal
   2010-2015 : Agile Scrum
         : jQuery
