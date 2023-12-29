@@ -1,6 +1,10 @@
 pipeline {
   agent any
 
+  environment {
+    NODE_OPTIONS = '--max-old-space-size=4096'
+  }
+
   tools {nodejs "Node 18"}
 
   stages {
