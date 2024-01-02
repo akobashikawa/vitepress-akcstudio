@@ -1,9 +1,9 @@
 # Cambios
 
-## Previamente
+## 20231229
 
-- Creación del sitio
-- Agrega Google Analytics
+- Agrega mermaid
+- Agrega Leyendo
 
 ## 20231205
 
@@ -11,3 +11,8 @@
 - Creación de [Breve Historia de la Web](web-historia)
 - Creación de [Acerca](about)
 - Agrega hero image en [Home](/)
+
+## Previamente
+
+- Creación del sitio
+- Agrega Google Analytics

@@ -70,6 +70,7 @@ export default withMermaid({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Leyendo', link: '/reading/' },
       { text: 'Webdev', link: '/webdev' },
       { text: 'Frontend', link: '/frontend' },
       { text: 'Backend', link: '/backend' },
@@ -82,11 +83,16 @@ export default withMermaid({
       {
         text: 'Dev',
         items: [
-          { text: 'WebDev', link: '/webdev' },
+          { text: 'Leyendo', link: '/reading/',
+            items: [
+              { text: '100 Ways To Motivate...', link: '/reading/100-ways-to-motivate-yourself.md' },	
+            ]
+          },
+          { text: 'Webdev', link: '/webdev' },
           { text: 'Frontend', link: '/frontend' },
           { text: 'Backend', link: '/backend' },
           { text: 'Devops', link: '/devops' },
-          { text: 'Cambios', link: '/changes' },
+          { text: 'Novedades', link: '/changes' },
         ]
       },
       // {
