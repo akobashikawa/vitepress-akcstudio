@@ -30,8 +30,8 @@
 
 ### Cómo leer libros digitales?
 
-- Una forma de adaptar la técnica del pie es usar comentarios o anotacionesque ofrezca la aplicación de lectura.
-- Otra manera es hacer las anotaciones en otro medio.
+- Una forma de adaptar la técnica del pie es usar las herramientas para comentarios o anotaciones que ofrezca la aplicación de lectura.
+- Otra manera es hacer las anotaciones en otro medio independiente.
   - Por ejemplo, un sistema como [Obsidian](https://obsidian.md/).
   - O, publicarlo en una página web.
 

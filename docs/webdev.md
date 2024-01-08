@@ -70,9 +70,9 @@ flowchart LR
 
 Cada servidor web tiene una **dirección ip**, que es un conjunto de números que permite localizarlo. Por ejemplo, 67.207.84.142
 
-También puede tener un **dominio**, que es un nombre que se puede usar en lugar del ip. Por ejemplo, akcstudio.online
+También puede tener un **dominio**, que es un nombre que se puede usar en lugar del ip. Por ejemplo, akcstudio.com
 
-Cada página y cada recurso web tiene un **URL**, que es la dirección que permite localizarla en la web. Por ejemplo, https://akcstudio.online/webdev.html
+Cada página y cada recurso web tiene un **URL**, que es la dirección que permite localizarla en la web. Por ejemplo, https://akcstudio.com/webdev.html
 
 :::
 

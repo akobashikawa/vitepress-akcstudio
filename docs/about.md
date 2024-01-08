@@ -45,7 +45,7 @@
 - [Ubuntu Linux](https://ubuntu.com/blog/tag/22-04-lts)
   - Es el sistema operativo corriendo en el VPS.
 - [Namecheap](https://www.namecheap.com/)
-  - Es un servicio de venta de dominios. Allí tengo registrado akcstudio.online.
+  - Es un servicio de venta de dominios. Allí tengo registrado akcstudio.com.
 - [Google Analytics](https://analytics.google.com/)
   - Es un servicio de analítica web.
 
