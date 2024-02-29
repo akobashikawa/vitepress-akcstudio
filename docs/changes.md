@@ -3,13 +3,14 @@
 ## 20240229
 
 - Agrega logo
-- Agrega búsqueda
+- Agrega search
 - Agrega lastUpdated
 - Cambia docFooter
 - Cambia sidebar
 - Cambia nav
 - Cambia links
 - Cambia about
+- Agrega tawk.to
 
 ## 20231229
 
