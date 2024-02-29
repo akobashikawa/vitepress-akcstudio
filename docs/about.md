@@ -1,10 +1,28 @@
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: 'https://www.github.com/akobashikawa.png',
+    name: 'Antonio Kobashikawa',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/akobashikawa' },
+      { icon: 'twitter', link: 'https://twitter.com/rulokoba' }
+    ]
+  },
+]
+</script>
+
 # Acerca de este sitio
 
 ## Participantes
 
+<VPTeamMembers size="small" :members="members" />
+
 - **Antonio Kobashikawa Carrasco (Rulo)**
-  - Trabajo en desarrollo web. Frontend, backend, devops.
-  - En AKC Studio voy haciendo un compendio de los temas que suelo manejar o me parecen interesantes de desarrollar.
+  - Hago desarrollo web. Frontend, backend, devops.
+  - En AKC Studio, voy anotando los temas que suelo manejar y otras cosas interesantes.
 
 ## Qué se usa
 
@@ -17,8 +35,6 @@
 
 - [Obsidian](https://obsidian.md/)
   - Es un administrador de notas personales.
-- [Logseq](https://logseq.com/)
-  - Es un administrador de notas personales orientado a outlines.
 - [Zettelkasten](https://zettelkasten.de/posts/overview/)
   - Es un método para producir, organizar y procesar notas personales.
 
@@ -53,8 +69,8 @@
 ## Cómo se hace AKC Studio
 
 - Aplico ideas de Zettelkasten.
-  - Cada día, voy ingresando notas a mi logseq.
-  - Proceso las notas con obsidian.
+  - Cada día, voy ingresando notas a mi journal.
+  - Proceso las notas en obsidian.
   - Con el tiempo, aparece contenido que voy publicando.
     - [AKC Bitácora](https://akc-bitacora.netlify.app/)
     - [Antonio KC](https://antoniokc.netlify.app/)

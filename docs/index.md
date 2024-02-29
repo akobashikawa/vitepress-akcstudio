@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "AKC Studio"
   text: explore | thinking | tinkering | playing | solving | dev | learning
-  tagline: Soy Antonio Kobashikawa Carrasco (Rulo). Trabajo en desarrollo web.
+  tagline: Soy Antonio Kobashikawa Carrasco y hago Desarrollo Web.
   image:
     src: /img/webdev-logo.png
   actions:
@@ -18,6 +18,9 @@ hero:
     - theme: brand
       text: Lo que aprendí hoy
       link: https://akc-bitacora.netlify.app/notas/
+    - theme: brand
+      text: Leyendo
+      link: /reading/
     - theme: alt
       text: "@netlify"
       link: https://antoniokc.netlify.app/
@@ -36,11 +39,11 @@ hero:
 
 features:
   - title: <a href="frontend">Frontend</a>
-    details: HTML, CSS, Javascript, Bootstrap, Vue, React, Angular
+    details: <strong>Interfaz de usuario.</strong> HTML, CSS, Javascript, Bootstrap, Vue, React, Angular
   - title: <a href="backend">Backend</a>
-    details: Node.js, Express.js, PHP, Java, Spring Boot
+    details: <strong>Lógica del negocio.</strong> Node.js, Express.js, PHP, Java, Spring Boot
   - title: <a href="devops">Devops</a>
-    details: Git, Github, Jenkins, Linux, Windows
+    details: <strong>Despliegue de soluciones.</strong> Git, Github, Jenkins, Linux, Windows
 ---
 
 <center>

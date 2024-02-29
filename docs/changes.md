@@ -1,5 +1,16 @@
 # Cambios
 
+## 20240229
+
+- Agrega logo
+- Agrega búsqueda
+- Agrega lastUpdated
+- Cambia docFooter
+- Cambia sidebar
+- Cambia nav
+- Cambia links
+- Cambia about
+
 ## 20231229
 
 - Agrega mermaid

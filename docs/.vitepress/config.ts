@@ -64,31 +64,55 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 
 export default withMermaid({
   // your existing vitepress config...
+  lang: 'es-ES',
   title: "AKC Studio",
   description: "explore | thinking | tinkering | playing | solving | dev | learning",
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    siteTitle: "AKC Studio",
+    logo: '/img/reshot-icon-code-V24MA9F78Z.svg',
+
+    lastUpdated: {
+      text: 'Última actualización',
+      formatOptions: {
+        dateStyle: 'medium',
+        timeStyle: 'short'
+      }
+    },
+
+    docFooter: {
+      prev: 'Anterior',
+      next: 'Siguiente'
+    },
+
+    search: {
+      provider: 'local'
+    },
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Leyendo', link: '/reading/' },
-      { text: 'Webdev', link: '/webdev' },
-      { text: 'Frontend', link: '/frontend' },
-      { text: 'Backend', link: '/backend' },
-      { text: 'Devops', link: '/devops' },
+      { text: 'WebDev', link: '/webdev' },
       { text: 'Acerca', link: '/about' },
       // { text: 'Examples', link: '/markdown-examples' }
     ],
 
     sidebar: [
       {
-        text: 'Dev',
+        text: 'Studio',
         items: [
           { text: 'Leyendo', link: '/reading/',
             items: [
               { text: '100 Ways To Motivate...', link: '/reading/100-ways-to-motivate-yourself.md' },	
             ]
           },
-          { text: 'Webdev', link: '/webdev' },
+        ]
+      },
+      {
+        text: 'Dev',
+        items: [
+          { text: 'WebDev', link: '/webdev' },
           { text: 'Frontend', link: '/frontend' },
           { text: 'Backend', link: '/backend' },
           { text: 'Devops', link: '/devops' },

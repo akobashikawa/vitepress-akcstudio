@@ -1,4 +1,4 @@
-# Desarrollo Web
+# Web Dev: Desarrollo Web
 
 
 ```mermaid
@@ -37,40 +37,43 @@ mindmap
 
 ```
 
-El desarrollo web está enfocado en páginas web, sitios web y aplicaciones web.
+El desarrollo **web** está enfocado en crear páginas _web_, sitios _web_ y aplicaciones _web_.
 
-**La web** es, básicamente, la parte de internet construida en torno a contenido _HTML_.
+En Internet, el universo de páginas web interconectadas se conoce como **la web**.
 
 [Breve Historia de la Web](web-historia)
 
 
 ## Páginas, sitios, aplicaciones
 
-Primero se trató de *hacer* **páginas web** (_web pages_), que son documentos de hipertexto, donde uno puede saltar de página en página.
+Primero, fue *crear* **páginas web** (_web pages_), documentos de hipertexto, donde uno puede saltar de página en página.
 
-Luego, se trató de *agrupar* las páginas en **sitios web** (_web sites_), para tener un conjunto de páginas relacionadas. Por ejemplo, el sitio web de una revista.
+Luego, fue *agrupar* las páginas en **sitios web** (_web sites_), para tener un conjunto de páginas relacionadas. Por ejemplo, el sitio web de una revista.
 
-Después, se trató de *programar* **aplicaciones web** (_web apps_), que son páginas web organizadas como una aplicación. Por ejemplo, una tienda online.
+Después, fue *programar* **aplicaciones web** (_web apps_), que son páginas web organizadas como una aplicación. Por ejemplo, una tienda online.
 
-## Servers
 
-El código HTML para mostrar una página web es enviado a los navegadores desde computadoras llamadas **servidores web**.
+## Servidores
 
-El navegador interpreta el HTML para mostrarnos la página web.
+Las páginas web se hacen principalmente con código _HTML_ y se guardan en servidores web.
 
-El navegador y los servidores se comunican usando el protocolo _HTTP_.
+Un servidor web es una computadora dedicada a enviar páginas web a los navegadores cuando lo solicitan.
+
+Cada página tiene una dirección. Cuando la abrimos, el servidor web envía el HTML, que es abierto por un navegador y así vemos la página.
+
+Para hacer todo esto, el navegador y los servidores usan el protocolo _HTTP_.
 
 ```mermaid
 flowchart LR
-  Servidor <---> Navegador
+  Servidor --- HTML --> Navegador
 ```
 
 
 ::: info
 
-Cada servidor web tiene una **dirección ip**, que es un conjunto de números que permite localizarlo. Por ejemplo, 67.207.84.142
+Cada servidor web tiene una **dirección ip**, que permite localizarlo. Por ejemplo, 67.207.84.142
 
-También puede tener un **dominio**, que es un nombre que se puede usar en lugar del ip. Por ejemplo, akcstudio.com
+También suele tener un **dominio**, que se puede usar en lugar del ip. Por ejemplo, akcstudio.com
 
 Cada página y cada recurso web tiene un **URL**, que es la dirección que permite localizarla en la web. Por ejemplo, https://akcstudio.com/webdev.html
 
@@ -79,7 +82,7 @@ Cada página y cada recurso web tiene un **URL**, que es la dirección que permi
 
 ::: info
 
-HTML no es un lenguaje de programación _imperativo_, como C o Java, pero es un lenguaje de programación _declarativo_, que usa etiquetas para indicar lo que hay que hacer. 
+La programación que se puede hacer con HTML no es de tipo _imperativa_, como cuando se programa con C o Java, sino _declarativa_, que usa etiquetas para indicar a la computadora lo que hay que hacer. 
 
 :::
 
@@ -88,26 +91,20 @@ HTML no es un lenguaje de programación _imperativo_, como C o Java, pero es un 
 
 **Hosting** es como se llama al servicio de alojar contenido web.
 
-El hosting de un servidor windows suele ser más caro por el pago de las licencias involucradas.
-
-En comparación, el hosting de un servidor linux es mucho más económico.
-
-Los servicios de hosting más populares y económicos suelen ser los que corren en un servidor linux con soporte para PHP.
-
 :::
 
 
 ::: tip
 
-Un **VPS** (Virtual Private Server) es un servidor que no se comparte con otros usuarios. No se trata de una máquina física, que sería más cara, sino virtual.
+En un hosting económico, uno comparte una máquina con otros usuarios.
 
-En un VPS, se tiene el poder de instalar lo que se desee. PHP, Java, Node, etc, además de herramientas y aplicaciones que normalmente no están disponibles en un hosting compartido. También suele haber opciones para manejar dominios y subdominios, entre otras cosas.
+Un **VPS** (Virtual Private Server) es un servidor que no se comparte con otros usuarios y uno tiene más poder para instalar y administrar.
 
 :::
 
 ## Estático y dinámico
 
-La forma más simple de hacer una página web es un archivo de texto HTML y enviarlo al navegador tal cuál. Ese tipo de página se llaman **estática**.
+La forma más simple de servir una página web es enviar un archivo de texto HTML para que sea abierto en el navegador tal cuál. Ese tipo de página se llaman **estática**.
 
 Una forma más sofisticada de servir una página web es hacer un programa que construya nuevo HTML cada vez que se necesita. Eso se conoce como página  **dinámica**.
 
@@ -116,7 +113,7 @@ Entre los lenguajes más populares para hacer páginas dinámicas han figurado: 
 
 ::: info
 
-Cuando se desarrolla aplicaciones complejas, es fácil enredarse. Fueron apareciendo propuestas de programadores con experiencia para tratar con esta complejidad.
+Para manejar la complejidad del desarrollo, se suele usar bibliotecas y frameworks.
 
 Una **biblioteca** (o librería) es un conjunto de utilidades que resuelven ciertas cuestiones y podemos aprovechar para no tener que resolverlo todo.
 
