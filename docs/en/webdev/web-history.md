@@ -3,7 +3,7 @@
 ## Hypertext
 
 ::: info
-The concept of hypertext is basically that of a text that can link you to other text, and that can contain multimedia, rather than just text.
+The concept of hypertext is basically that a text can be linked to other text, and that a page can contain multimedia, rather than just text.
 :::
 
 The origin of the web dates back to the late 1980s, when [Tim Berners-Lee](https://es.wikipedia.org/wiki/Tim_Berners-Lee) led a project at [CERN](https://es.wikipedia.org/wiki/Organizaci%C3%B3n_Europea_para_la_Investigaci%C3%B3n_Nuclear) to help the community of scientists share their publications.

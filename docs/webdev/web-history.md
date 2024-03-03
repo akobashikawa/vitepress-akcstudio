@@ -3,7 +3,7 @@
 ## Hipertexto
 
 ::: info
-El concepto de hipertexto es básicamente el de un texto que pueda vincularte con otro texto, y que pueda contener multimedia, más que solamente texto.
+El concepto de hipertexto es básicamente el de un texto que puede enlazarse a otro texto, y que una página pueda contener multimedia, más que solamente texto.
 :::
 
 El origen de la web se remonta hacia fines de la década de 1980, cuando [Tim Berners-Lee](https://es.wikipedia.org/wiki/Tim_Berners-Lee) lideró un proyecto del [CERN](https://es.wikipedia.org/wiki/Organizaci%C3%B3n_Europea_para_la_Investigaci%C3%B3n_Nuclear) para ayudar a la comunidad de científicos a compartir sus publicaciones.
