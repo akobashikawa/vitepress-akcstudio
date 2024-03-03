@@ -41,7 +41,7 @@ El desarrollo **web** está enfocado en crear páginas _web_, sitios _web_ y apl
 
 En Internet, el universo de páginas web interconectadas se conoce como **la web**.
 
-[Breve Historia de la Web](web-historia)
+[Breve Historia de la Web](web-history)
 
 
 ## Páginas, sitios, aplicaciones
