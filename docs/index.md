@@ -51,7 +51,7 @@ features:
 ```mermaid
 
 mindmap
-  root((AKC))
+  root((Mis Skills))
     Frontend
       HTML
       CSS
@@ -73,10 +73,11 @@ mindmap
         Spring Boot
     Devops
       Git
-      Windows
-      Linux
+        GitHub
       Jenkins
       Hosting
+        Windows
+        Linux
         DigitalOcean
         Netlify
 ```
