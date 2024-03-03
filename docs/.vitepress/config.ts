@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress';
+// import { defineConfig } from 'vitepress';
 import { withMermaid } from "vitepress-plugin-mermaid";
 
 // https://vitepress.dev/reference/site-config
@@ -64,74 +64,147 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 
 export default withMermaid({
   // your existing vitepress config...
-  lang: 'es-ES',
-  title: "AKC Studio",
-  description: "explore | thinking | tinkering | playing | solving | dev | learning",
-  lastUpdated: true,
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    siteTitle: "AKC Studio",
-    logo: '/img/reshot-icon-code-V24MA9F78Z.svg',
-
-    lastUpdated: {
-      text: 'Última actualización',
-      formatOptions: {
-        dateStyle: 'medium',
-        timeStyle: 'short'
-      }
-    },
-
-    docFooter: {
-      prev: 'Anterior',
-      next: 'Siguiente'
-    },
-
-    search: {
-      provider: 'local'
-    },
-
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Leyendo', link: '/reading/' },
-      { text: 'WebDev', link: '/webdev' },
-      { text: 'Acerca', link: '/about' },
-      // { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Studio',
-        items: [
-          { text: 'Leyendo', link: '/reading/',
+  locales: {
+    root: {
+      label: 'Español',
+      lang: 'es',
+      title: "AKC Studio",
+      description: "explorar | pensar | jugar | resolver | desarrollar | aprender",
+      themeConfig: {
+        // https://vitepress.dev/reference/default-theme-config
+        siteTitle: "AKC Studio",
+        logo: '/img/reshot-icon-code-V24MA9F78Z.svg',
+    
+        lastUpdated: {
+          text: 'Última actualización',
+          formatOptions: {
+            dateStyle: 'medium',
+            timeStyle: 'short'
+          }
+        },
+    
+        docFooter: {
+          prev: 'Anterior',
+          next: 'Siguiente'
+        },
+    
+        search: {
+          provider: 'local'
+        },
+    
+        nav: [
+          { text: 'Home', link: '/' },
+          { text: 'Leyendo', link: '/reading/' },
+          { text: 'WebDev', link: '/webdev/' },
+          { text: 'Catálogo', link: '/catalog/' },
+          { text: 'Acerca', link: '/about' },
+          // { text: 'Examples', link: '/markdown-examples' }
+        ],
+    
+        sidebar: [
+          {
+            text: 'Studio',
             items: [
-              { text: '100 Ways To Motivate...', link: '/reading/100-ways-to-motivate-yourself.md' },	
+              { text: 'Leyendo', link: '/reading/',
+                items: [
+                  { text: '100 Ways To Motivate...', link: '/reading/100-ways-to-motivate-yourself.md' },	
+                ]
+              },
             ]
           },
+          {
+            text: 'Dev',
+            items: [
+              { text: 'WebDev', link: '/webdev/' },
+              { text: 'Frontend', link: '/webdev/frontend' },
+              { text: 'Backend', link: '/webdev/backend' },
+              { text: 'Devops', link: '/webdev/devops' },
+              { text: 'Changes', link: '/changes' },
+            ]
+          },
+          // {
+          //   text: 'Examples',
+          //   items: [
+          //     { text: 'Markdown Examples', link: '/markdown-examples' },
+          //     { text: 'Runtime API Examples', link: '/api-examples' }
+          //   ]
+          // },
+        ],
+    
+        socialLinks: [
+          { icon: 'github', link: 'https://github.com/akobashikawa/vitepress-akcstudio' }
         ]
       },
-      {
-        text: 'Dev',
-        items: [
-          { text: 'WebDev', link: '/webdev' },
-          { text: 'Frontend', link: '/frontend' },
-          { text: 'Backend', link: '/backend' },
-          { text: 'Devops', link: '/devops' },
-          { text: 'Novedades', link: '/changes' },
+    },
+    en: {
+      label: 'English',
+      lang: 'en',
+      title: "AKC Studio",
+      description: "explore | thinking | playing | solving | dev | learning",
+      themeConfig: {
+        // https://vitepress.dev/reference/default-theme-config
+        siteTitle: "AKC Studio",
+        logo: '/img/reshot-icon-code-V24MA9F78Z.svg',
+    
+        lastUpdated: {
+          formatOptions: {
+            dateStyle: 'medium',
+            timeStyle: 'short'
+          }
+        },
+    
+        search: {
+          provider: 'local'
+        },
+    
+        nav: [
+          { text: 'Home', link: '/en/' },
+          { text: 'Reading', link: '/en/reading/' },
+          { text: 'WebDev', link: '/en/webdev/' },
+          { text: 'Catalog', link: '/en/catalog/' },
+          { text: 'About', link: '/en/about' },
+          // { text: 'Examples', link: '/markdown-examples' }
+        ],
+    
+        sidebar: [
+          {
+            text: 'Studio',
+            items: [
+              { text: 'Reading', link: '/en/reading/',
+                items: [
+                  { text: '100 Ways To Motivate...', link: '/reading/100-ways-to-motivate-yourself.md' },	
+                ]
+              },
+            ]
+          },
+          {
+            text: 'Dev',
+            items: [
+              { text: 'WebDev', link: '/en/webdev/' },
+              { text: 'Frontend', link: '/en/webdev/frontend' },
+              { text: 'Backend', link: '/en/webdev/backend' },
+              { text: 'Devops', link: '/en/webdev/devops' },
+              { text: 'Changes', link: '/en/changes' },
+            ]
+          },
+          // {
+          //   text: 'Examples',
+          //   items: [
+          //     { text: 'Markdown Examples', link: '/markdown-examples' },
+          //     { text: 'Runtime API Examples', link: '/api-examples' }
+          //   ]
+          // },
+        ],
+    
+        socialLinks: [
+          { icon: 'github', link: 'https://github.com/akobashikawa/vitepress-akcstudio' }
         ]
       },
-      // {
-      //   text: 'Examples',
-      //   items: [
-      //     { text: 'Markdown Examples', link: '/markdown-examples' },
-      //     { text: 'Runtime API Examples', link: '/api-examples' }
-      //   ]
-      // },
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/akobashikawa/vitepress-akcstudio' }
-    ]
+    },
   },
+  
+  lastUpdated: true,
+  
   head: [
     [
       'script',

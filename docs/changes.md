@@ -1,4 +1,14 @@
-# Cambios
+# Changes
+
+## 20240303
+
+- Add i18n support
+- Add english section
+
+## 20240302
+
+- Avanza lectura
+- Agrega Catálogo
 
 ## 20240229
 

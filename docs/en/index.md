@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "AKC Studio"
-  text: explorar | pensar | jugar | resolver | desarrollar | aprender
-  tagline: Soy Antonio Kobashikawa Carrasco y hago Desarrollo Web.
+  text: explore | thinking | playing | solving | dev | learning
+  tagline: I'm Antonio Kobashikawa and I do web development.
   image:
     src: /img/webdev-logo.png
   actions:
@@ -16,10 +16,10 @@ hero:
     #   text: API Examples
     #   link: /api-examples
     - theme: brand
-      text: Lo que aprendí hoy
+      text: What I learned today
       link: https://akc-bitacora.netlify.app/notas/
     - theme: brand
-      text: Leyendo
+      text: Reading
       link: /reading/
     - theme: alt
       text: "@netlify"
@@ -51,7 +51,7 @@ features:
 ```mermaid
 
 mindmap
-  root((AKC))
+  root((My Skills))
     Frontend
       HTML
       CSS
@@ -73,10 +73,11 @@ mindmap
         Spring Boot
     Devops
       Git
-      Windows
-      Linux
+        GitHub
       Jenkins
       Hosting
+        Windows
+        Linux
         DigitalOcean
         Netlify
 ```
