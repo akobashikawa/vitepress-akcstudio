@@ -76,6 +76,6 @@ const members = [
     - [Antonio KC](https://antoniokc.netlify.app/)
   - I organize tasks with Jira. 
 
-[Recent changes](changes)
+[Recent changes](/changes)
 
 

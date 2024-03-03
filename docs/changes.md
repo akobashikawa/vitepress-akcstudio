@@ -29,10 +29,10 @@
 
 ## 20231205
 
-- Actualización de [WebDev](webdev)
-- Creación de [Breve Historia de la Web](web-historia)
-- Creación de [Acerca](about)
-- Agrega hero image en [Home](/)
+- Actualización de webdev
+- Creación de web-historia
+- Creación de about
+- Agrega hero image en Home
 
 ## Previamente
 
