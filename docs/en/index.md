@@ -39,11 +39,11 @@ hero:
 
 features:
   - title: <a href="frontend">Frontend</a>
-    details: <strong>Interfaz de usuario.</strong> HTML, CSS, Javascript, Bootstrap, Vue, React, Angular
+    details: <strong>User Interface.</strong> HTML, CSS, Javascript, Bootstrap, Vue, React, Angular
   - title: <a href="backend">Backend</a>
-    details: <strong>Lógica del negocio.</strong> Node.js, Express.js, PHP, Java, Spring Boot
+    details: <strong>Business Logic.</strong> Node.js, Express.js, PHP, Java, Spring Boot
   - title: <a href="devops">Devops</a>
-    details: <strong>Despliegue de soluciones.</strong> Git, Github, Jenkins, Linux, Windows
+    details: <strong>Solutions Deployment.</strong> Git, Github, Jenkins, Linux, Windows
 ---
 
 <center>
