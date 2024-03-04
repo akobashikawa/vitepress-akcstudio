@@ -64,6 +64,17 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 
 export default withMermaid({
   // your existing vitepress config...
+
+  // markdown: {
+  //   container: {
+  //     tipLabel: 'TIP',
+  //     warningLabel: 'NOTA',
+  //     dangerLabel: 'IMPORTANTE',
+  //     infoLabel: 'DATO',
+  //     detailsLabel: 'DETALLE'
+  //   }
+  // },
+
   locales: {
     root: {
       label: 'Español',
@@ -133,7 +144,9 @@ export default withMermaid({
     
         socialLinks: [
           { icon: 'github', link: 'https://github.com/akobashikawa/vitepress-akcstudio' }
-        ]
+        ],
+
+        
       },
     },
     en: {
@@ -223,11 +236,11 @@ export default withMermaid({
       {},
       "(function(h,o,t,j,a,r){ h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:3791609,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r); })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');",
     ],
-    [
-      'script',
-      {},
-      "var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date(); (function(){ var s1=document.createElement('script'),s0=document.getElementsByTagName('script')[0]; s1.async=true; s1.src='https://embed.tawk.to/65e0139d8d261e1b5f66ca34/1hnpkp8ge'; s1.charset='UTF-8'; s1.setAttribute('crossorigin','*'); s0.parentNode.insertBefore(s1,s0); })();",
-    ],
+    // [
+    //   'script',
+    //   {},
+    //   "var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date(); (function(){ var s1=document.createElement('script'),s0=document.getElementsByTagName('script')[0]; s1.async=true; s1.src='https://embed.tawk.to/65e0139d8d261e1b5f66ca34/1hnpkp8ge'; s1.charset='UTF-8'; s1.setAttribute('crossorigin','*'); s0.parentNode.insertBefore(s1,s0); })();",
+    // ],
   ],
   // optionally, you can pass MermaidConfig
   mermaid: {

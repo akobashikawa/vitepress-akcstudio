@@ -1,5 +1,11 @@
 # Changes
 
+## 20240304
+
+- Fix mindmap
+- Add timeline
+- Comment tawk.to
+
 ## 20240303
 
 - Add i18n support
