@@ -5,12 +5,11 @@
 ## Prefacio
 
 - Por Kelsey Hightower
-- La falta de documentación es como la kryptonita para un super héroe programador.
-- La documentación ayuda en el ciclo de trabajo de un desarrollador.
-- La documentación debería ser la primera funcionalidad a implementar en un proyecto.
-- La razón por la que falta documentación es porque aunque los desarrolladores no saben cómo hacer el ciclo de documentación, que existe así como el ciclo de desarrollo y pueden ir juntos para el éxito del proyecto.
-- He aprendido del ciclo de documentación de mi experiencia creando documentación que ha resultado muy apreciada por desarrolladores de Kubernetes (Kubernetes the Hard Way).
-- El proceso presentado en este libro funciona.
+- La ausencia de documentación es como la kryptonita para un superhéroe programador, ya que la documentación desempeña un papel crucial en el ciclo de trabajo de un desarrollador.
+- De hecho, debería considerarse como la primera funcionalidad a implementar en cualquier proyecto.
+- La falta de documentación suele deberse a la falta de comprensión sobre cómo llevar a cabo el ciclo de documentación, el cual es tan vital como el ciclo de desarrollo y ambos deben ir de la mano para garantizar el éxito del proyecto.
+- A partir de mi experiencia personal en la creación de documentación, particularmente en proyectos como Kubernetes (Kubernetes the Hard Way), he aprendido la importancia y el impacto positivo que una buena documentación puede tener en la comunidad de desarrolladores.
+- El proceso presentado en este libro ha demostrado ser eficaz y funcional.
 
 ## Introducción
 
