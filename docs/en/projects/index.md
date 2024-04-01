@@ -1,7 +1,7 @@
 # Projects
 
 - [AKCStudio](https://akcstudio.com)
-- [AntonioKC](https://antoniokc.netlify.app/)
+- [AntonioKC @netlify](https://antoniokc.netlify.app/)
 - [Lo que aprendí hoy](https://akc-bitacora.netlify.app/notas/)
 - [AKC Puroguramu](https://puroguramu.akcstudio.com/)
 - [AKC Puroguramu @blogspot](https://akcdev.blogspot.com/)
