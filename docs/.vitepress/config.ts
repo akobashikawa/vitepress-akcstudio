@@ -105,8 +105,9 @@ export default withMermaid({
     
         nav: [
           { text: 'Home', link: '/' },
+          { text: 'Desarrollo', link: '/webdev/' },
           { text: 'Leyendo', link: '/reading/' },
-          { text: 'WebDev', link: '/webdev/' },
+          { text: 'Proyectos', link: '/projects/' },
           { text: 'Catálogo', link: '/catalog/' },
           { text: 'Acerca', link: '/about' },
           // { text: 'Examples', link: '/markdown-examples' }
@@ -172,8 +173,9 @@ export default withMermaid({
     
         nav: [
           { text: 'Home', link: '/en/' },
+          { text: 'Dev', link: '/en/webdev/' },
           { text: 'Reading', link: '/en/reading/' },
-          { text: 'WebDev', link: '/en/webdev/' },
+          { text: 'Projects', link: '/en/projects/' },
           { text: 'Catalog', link: '/en/catalog/' },
           { text: 'About', link: '/en/about' },
           // { text: 'Examples', link: '/markdown-examples' }
