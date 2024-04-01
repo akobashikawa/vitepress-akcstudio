@@ -2,7 +2,7 @@
 
 - [AKCStudio](https://akcstudio.com)
 - [AntonioKC @netlify](https://antoniokc.netlify.app/)
-- [Lo que aprendí hoy](https://akc-bitacora.netlify.app/notas/)
+- [Lo que aprendí hoy @netlify](https://akc-bitacora.netlify.app/notas/)
 - [AKC Puroguramu](https://puroguramu.akcstudio.com/)
 - [AKC Puroguramu @blogspot](https://akcdev.blogspot.com/)
 - [AKC Arte](https://arte.akcstudio.com/)
