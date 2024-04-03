@@ -16,54 +16,104 @@ const members = [
 
 # Acerca de este sitio
 
-## Participantes
+```mermaid
+flowchart TB
+
+classDef link stroke:blue,fill:#abe
+classDef purple fill:#daf
+classDef lime fill:lime
+classDef yellow fill:yellow
+classDef rose fill:#fea
+
+akcstudio((AKCStudio)):::purple --- people((people)):::rose --- akc[Antonio KC]
+akcstudio --- gdev
+akcstudio --- gdevops
+akc -.-o gdev
+akc -.-o gdevops
+
+subgraph gdev[Dev]
+  direction TB
+  dev --- frontend((frontend))
+  frontend --- vitepress(vitepress):::link
+  dev --- backend((backend))
+  backend --- nginx(nginx):::link
+  dev --- plan((plan)):::lime --- jira(jira):::link
+  dev --- notes((notes)):::yellow --- zettelkasten(zettelkasten):::link --- obsidian(obsidian):::link
+end
+
+subgraph gdevops[Devops]
+  devops((devops)) --- github(github):::link
+  devops --- jenkins(jenkins):::link
+  devops --- digitalocean(digitalocean):::link
+  devops --- ubuntu(ubuntu):::link
+  devops --- namecheap(namecheap):::link
+  devops --- ga(google analytics):::link
+  devops --- vscode(VSCode):::link
+end
+
+click jira "https://www.atlassian.com/software/jira" _blank
+click zettelkasten "https://zettelkasten.de/posts/overview/" _blank
+click obsidian "https://obsidian.md/" _blank
+click vitepress "https://vitepress.dev/" _blank
+click nginx "https://www.nginx.com/" _blank
+click github "https://github.com/" _blank
+click jenkins "https://www.jenkins.io/" _blank
+click digitalocean "https://m.do.co/c/87053dad838b" _blank
+click ubuntu "https://ubuntu.com/blog/tag/22-04-lts" _blank
+click namecheap "https://www.namecheap.com/" _blank
+click ga "https://analytics.google.com/" _blank
+click vscode "https://code.visualstudio.com/" _blank
+```
+
+## Gente
 
 <VPTeamMembers size="small" :members="members" />
 
 - **Antonio Kobashikawa Carrasco (Rulo)**
-  - Hago desarrollo web. Frontend, backend, devops.
-  - En AKC Studio, voy anotando los temas que suelo manejar y otras cosas interesantes.
+  - Desarrollo web: Frontend, Backend, Devops.
+  - AKC Studio es como mi digital garden.
 
 ## Qué se usa
 
 ### Plan
 
 - [Jira](https://www.atlassian.com/software/jira)
-  - Es un administrador de proyectos.
+  - Ayuda en el seguimiento de proyectos.
 
 ### Notas
 
-- [Obsidian](https://obsidian.md/)
-  - Es un administrador de notas personales.
 - [Zettelkasten](https://zettelkasten.de/posts/overview/)
-  - Es un método para producir, organizar y procesar notas personales.
+  - Método para producir, organizar y procesar notas personales.
+- [Obsidian](https://obsidian.md/)
+  - Administración de notas personales.
 
 ### Frontend
 
 - [VitePress](https://vitepress.dev/)
-  - Es un framework de documentación basado en Vue.
-- [Visual Studio Code](https://code.visualstudio.com/)
-  - Es el IDE que suelo usar.
+  - Framework de documentación, basado en Vue.
 
 ### Backend
 
 - [NGINX](https://www.nginx.com/)
-  - Es el web server donde se despliega AKC Studio.
+  - Web server.
 
 ### Devops
 
 - [GitHub](https://github.com/)
-  - Es un hosting de repositorios git. Alli tengo alojado [vitepress-akcstudio](https://github.com/akobashikawa/vitepress-akcstudio)
+  - Hosting de repositorios git. Aloja a [vitepress-akcstudio](https://github.com/akobashikawa/vitepress-akcstudio)
 - [Jenkins](https://www.jenkins.io/)
-  - Es un servidor de automatizaciones que permite desplegar automáticamente AKC Studio.
-- [DigitalOcean](https://www.digitalocean.com/)
-  - Es un servicio de hosting. Allí tengo el VPS donde está desplegado AKC Studio.
+  - Servidor de automatizaciones para despliegues automáticos.
+- [DigitalOcean](https://m.do.co/c/87053dad838b)
+  - [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg)](https://www.digitalocean.com/?refcode=87053dad838b&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+  - Hosting de VPS.
 - [Ubuntu Linux](https://ubuntu.com/blog/tag/22-04-lts)
-  - Es el sistema operativo corriendo en el VPS.
+  - Sistema operativo corriendo en el VPS.
 - [Namecheap](https://www.namecheap.com/)
-  - Es un servicio de venta de dominios. Allí tengo registrado akcstudio.com.
+  - Servicio de venta de dominios.
 - [Google Analytics](https://analytics.google.com/)
-  - Es un servicio de analítica web.
+  - Servicio de analítica web.
+- [Visual Studio Code](https://code.visualstudio.com/)
+  - IDE para desarrollar html, css, js, java, etc
 
 
 ## Cómo se hace AKC Studio
@@ -71,9 +121,7 @@ const members = [
 - Aplico ideas de Zettelkasten.
   - Cada día, voy ingresando notas a mi journal.
   - Proceso las notas en obsidian.
-  - Con el tiempo, aparece contenido que voy publicando.
-    - [AKC Bitácora](https://akc-bitacora.netlify.app/)
-    - [Antonio KC](https://antoniokc.netlify.app/)
+  - Con el tiempo, aparece contenido que voy publicando en [Proyectos](projects/)
 - Organizo las tareas con Jira.
 
 [Cambios recientes](changes)
