@@ -26,19 +26,20 @@ classDef yellow fill:yellow
 classDef rose fill:#fea
 
 akcstudio((AKCStudio)):::purple --- people((people)):::rose --- akc[Antonio KC]
+akc -.-o gdev
 akcstudio --- gdev
 akcstudio --- gdevops
-akc -.-o gdev
 akc -.-o gdevops
 
 subgraph gdev[Dev]
   direction TB
+  
+  dev --- plan((plan)):::lime --- jira(jira):::link
+  dev --- notes((notes)):::yellow --- zettelkasten(zettelkasten):::link --- obsidian(obsidian):::link
   dev --- frontend((frontend))
   frontend --- vitepress(vitepress):::link
   dev --- backend((backend))
   backend --- nginx(nginx):::link
-  dev --- plan((plan)):::lime --- jira(jira):::link
-  dev --- notes((notes)):::yellow --- zettelkasten(zettelkasten):::link --- obsidian(obsidian):::link
 end
 
 subgraph gdevops[Devops]

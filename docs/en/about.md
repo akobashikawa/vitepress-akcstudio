@@ -16,6 +16,56 @@ const members = [
 
 # About this site
 
+```mermaid
+flowchart TB
+
+classDef link stroke:blue,fill:#abe
+classDef purple fill:#daf
+classDef lime fill:lime
+classDef yellow fill:yellow
+classDef rose fill:#fea
+
+akcstudio((AKCStudio)):::purple --- people((people)):::rose --- akc[Antonio KC]
+akc -.-o gdev
+akcstudio --- gdev
+akcstudio --- gdevops
+akc -.-o gdevops
+
+subgraph gdev[Dev]
+  direction TB
+  
+  dev --- plan((plan)):::lime --- jira(jira):::link
+  dev --- notes((notes)):::yellow --- zettelkasten(zettelkasten):::link --- obsidian(obsidian):::link
+  dev --- frontend((frontend))
+  frontend --- vitepress(vitepress):::link
+  dev --- backend((backend))
+  backend --- nginx(nginx):::link
+end
+
+subgraph gdevops[Devops]
+  devops((devops)) --- github(github):::link
+  devops --- jenkins(jenkins):::link
+  devops --- digitalocean(digitalocean):::link
+  devops --- ubuntu(ubuntu):::link
+  devops --- namecheap(namecheap):::link
+  devops --- ga(google analytics):::link
+  devops --- vscode(VSCode):::link
+end
+
+click jira "https://www.atlassian.com/software/jira" _blank
+click zettelkasten "https://zettelkasten.de/posts/overview/" _blank
+click obsidian "https://obsidian.md/" _blank
+click vitepress "https://vitepress.dev/" _blank
+click nginx "https://www.nginx.com/" _blank
+click github "https://github.com/" _blank
+click jenkins "https://www.jenkins.io/" _blank
+click digitalocean "https://m.do.co/c/87053dad838b" _blank
+click ubuntu "https://ubuntu.com/blog/tag/22-04-lts" _blank
+click namecheap "https://www.namecheap.com/" _blank
+click ga "https://analytics.google.com/" _blank
+click vscode "https://code.visualstudio.com/" _blank
+```
+
 ## People
 
 <VPTeamMembers size="small" :members="members" />
