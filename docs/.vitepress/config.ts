@@ -121,6 +121,8 @@ export default withMermaid({
               { text: 'Leyendo', link: '/reading/',
                 items: [
                   { text: '100 Ways To Motivate...', link: '/reading/100-ways-to-motivate-yourself.md' },	
+                  { text: 'Docs for Developers', link: '/reading/docs-for-developers.md' },	
+                  { text: 'Using Gatsby and Netlify CMS', link: '/reading/using-gatsby-and-netlify-cms.md' },	
                 ]
               },
             ]
@@ -189,7 +191,9 @@ export default withMermaid({
             items: [
               { text: 'Reading', link: '/en/reading/',
                 items: [
-                  { text: '100 Ways To Motivate...', link: '/reading/100-ways-to-motivate-yourself.md' },	
+                  { text: '100 Ways To Motivate...', link: '/en/reading/100-ways-to-motivate-yourself.md' },	
+                  { text: 'Docs for Developers', link: '/reading/docs-for-developers.md' },	
+                  { text: 'Using Gatsby and Netlify CMS', link: '/reading/using-gatsby-and-netlify-cms.md' },	
                 ]
               },
             ]
