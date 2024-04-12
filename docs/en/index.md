@@ -7,7 +7,7 @@ hero:
   text: explore | thinking | playing | solving | dev | learning
   tagline: I'm Antonio Kobashikawa and I do web development.
   image:
-    src: /img/webdev-logo.png
+    src: /assets/webdev-logo.png
   actions:
     # - theme: brand
     #   text: Markdown Examples

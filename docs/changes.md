@@ -1,5 +1,10 @@
 # Changes
 
+## 20240412
+
+- Add favicons
+- Add images to frontend, backend, devops
+
 ## 20240403
 
 - Update about

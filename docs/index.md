@@ -7,7 +7,7 @@ hero:
   text: explorar | pensar | jugar | resolver | desarrollar | aprender
   tagline: Soy Antonio Kobashikawa Carrasco y hago Desarrollo Web.
   image:
-    src: /img/webdev-logo.png
+    src: /assets/webdev-logo.png
   actions:
     # - theme: brand
     #   text: Markdown Examples
