@@ -17,7 +17,7 @@ hero:
     #   link: /api-examples
     - theme: brand
       text: What I learned today
-      link: https://akc-bitacora.netlify.app/notas/
+      link: https://akc-bitacora.netlify.app/
     - theme: brand
       text: Reading
       link: /reading/
@@ -38,12 +38,12 @@ hero:
       link: https://www.slideshare.net/akobashikawa/
 
 features:
-  - title: <a href="frontend">Frontend</a>
-    details: <strong>User Interface.</strong> HTML, CSS, Javascript, Bootstrap, Vue, React, Angular
-  - title: <a href="backend">Backend</a>
-    details: <strong>Business Logic.</strong> Node.js, Express.js, PHP, Java, Spring Boot
-  - title: <a href="devops">Devops</a>
-    details: <strong>Solutions Deployment.</strong> Git, Github, Jenkins, Linux, Windows
+  - title: Programming
+    details: Programming is establishing in advance a set of actions or the way in which a set of actions will be performed
+  - title: Context
+    details: A context is a set of considerations that we take into account when discussing something
+  - title: Abstract
+    details: To abstract is to use a smaller set of considerations
 ---
 
 <br />

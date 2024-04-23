@@ -17,7 +17,7 @@ hero:
     #   link: /api-examples
     - theme: brand
       text: Lo que aprendí hoy
-      link: https://akc-bitacora.netlify.app/notas/
+      link: https://akc-bitacora.netlify.app/
     - theme: brand
       text: Leyendo
       link: /reading/
