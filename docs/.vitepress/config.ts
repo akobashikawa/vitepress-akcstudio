@@ -74,6 +74,11 @@ export default withMermaid({
   //     detailsLabel: 'DETALLE'
   //   }
   // },
+  themeConfig: {
+		search: {
+			provider: 'local'
+		}
+	},
 
   locales: {
     root: {
@@ -99,9 +104,9 @@ export default withMermaid({
           next: 'Siguiente'
         },
     
-        search: {
-          provider: 'local'
-        },
+        // search: {
+        //   provider: 'local'
+        // },
     
         nav: [
           { text: 'Home', link: '/' },
@@ -170,9 +175,9 @@ export default withMermaid({
           }
         },
     
-        search: {
-          provider: 'local'
-        },
+        // search: {
+        //   provider: 'local'
+        // },
     
         nav: [
           { text: 'Home', link: '/en/' },
