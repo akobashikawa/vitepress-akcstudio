@@ -38,12 +38,12 @@ hero:
       link: https://www.slideshare.net/akobashikawa/
 
 features:
-  - title: <a href="frontend">Frontend</a>
-    details: <strong>Interfaz de usuario.</strong> HTML, CSS, Javascript, Bootstrap, Vue, React, Angular
-  - title: <a href="backend">Backend</a>
-    details: <strong>Lógica del negocio.</strong> Node.js, Express.js, PHP, Java, Spring Boot
-  - title: <a href="devops">Devops</a>
-    details: <strong>Despliegue de soluciones.</strong> Git, Github, Jenkins, Linux, Windows
+  - title: Programar
+    details: Programar es establecer por adelantado un conjunto de acciones o la forma en que se realizará un conjunto de acciones
+  - title: Contexto
+    details: Un contexto es un conjunto de consideraciones que tenemos en cuenta al tratar sobre algo
+  - title: Abstraer
+    details: Abstraer es usar un conjunto de consideraciones más reducido
 ---
 
 <br />
