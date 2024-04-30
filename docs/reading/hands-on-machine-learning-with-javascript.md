@@ -32,7 +32,7 @@
 - Historicamente, se le han criticado algunas de sus características poco comunes y desconcertantes para muchos programadores.
 	- Que tiene sentido para aquellos con experiencia en programación funcional.
 	- Las quejas vienen generalmente por aquellos con experiencia sólo en OOP.
-- Sin embargo, con la llegada de **NodeJS**, que lo habilita para desarrollo en el lado del servidor; **Electron**, que lo habiita para desarrollo de aplicaciones de escritorio; y **React Native**, que lo habilita para desarrollo de aplicaciones mobile, se ha convertido en un **lenguaje de propósito general** y **multiplataforma**.
+- Sin embargo, con la llegada de **NodeJS**, que lo habilita para desarrollo en el lado del servidor; **Electron**, que lo habiita para desarrollo de aplicaciones de escritorio; y **React Native**, que lo habilita para desarrollo de aplicaciones mobile, Javascript se ha convertido en un **lenguaje de propósito general** y **multiplataforma**.
 - Aunque Python tiene la predominancia en ML, la tendencia es que Javascript seguirá avanzando para alcanzarlo, tarde o temprano.
 - Actualmente, puede ser un desafío ir incorporando ML a javascript y dejar una semilla para la siguiente generación de investigadores ML.
 
