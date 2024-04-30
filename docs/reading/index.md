@@ -5,7 +5,7 @@
 - [100 Ways to Motivate Yourself](100-ways-to-motivate-yourself.md)
 - [Docs for Developers](docs-for-developers.md)
 - [Using Gatsby and Netlify CMS](using-gatsby-and-netlify-cms.md)
-
+- [Hands-On Machine Learning with JavaScript](hands-on-machine-learning-with-javascript.md)
 
 ## Cómo leer un libro?
 

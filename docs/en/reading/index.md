@@ -4,7 +4,6 @@
 
 - [100 Ways to Motivate Yourself](100-ways-to-motivate-yourself.md)
 
-
 ## How to read a book?
 
 > Tell me something, I'll forget it \
