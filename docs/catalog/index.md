@@ -1,3 +1,3 @@
 # Catálogo
 
-- [VitePress Personal Portfolio](vitepress-personal-portfolio.md)
+- [VitePress Portfolio](vitepress-portfolio.md)
