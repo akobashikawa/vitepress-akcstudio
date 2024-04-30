@@ -32,8 +32,8 @@
 - Historicamente, se le han criticado algunas de sus características poco comunes y desconcertantes para muchos programadores.
 	- Que tiene sentido para aquellos con experiencia en programación funcional.
 	- Las quejas vienen generalmente por aquellos con experiencia sólo en OOP.
-- Sin embargo, con la llegada de **NodeJS**, que lo habilita para desarrollo en el lado del servidor; **Electron**, que lo habiita para desarrollo de aplicaciones de escritorio; y **React Native**, que lo habilita para desarrollo de aplicaciones mobile, Javascript se ha convertido en un **lenguaje de propósito general** y **multiplataforma**.
-- Aunque Python tiene la predominancia en ML, la tendencia es que Javascript seguirá avanzando para alcanzarlo, tarde o temprano.
+- Sin embargo, con la llegada de **NodeJS**, que lo habilita para desarrollo en el lado del servidor; **Electron**, que lo habiita para desarrollo de aplicaciones de escritorio; y **React Native**, que lo habilita para desarrollo de aplicaciones mobile, javascript se ha convertido en un **lenguaje de propósito general** y **multiplataforma**.
+- Aunque python tiene la predominancia en ML, la tendencia es que javascript seguirá avanzando para alcanzarlo, tarde o temprano.
 - Actualmente, puede ser un desafío ir incorporando ML a javascript y dejar una semilla para la siguiente generación de investigadores ML.
 
 ### The CommonJS initiative
@@ -50,20 +50,20 @@
 	- Ha sido clave para su adopción y éxito.
 - Otro ingrediente clave ha sido el registro **npm** que permite que los desarrolladores puedan usar fácilmente código compartido por otros desarrolladores.
 - Node.js ha permitido que frontend y backend puedan ser desarrollados en el mismo lenguaje y por los mismos desarrolladores.
-- Innovaciones en Javascript han permitido el desarrollo de conceptos como *isomorphic applications*, *single page applications* y *serverless*.
+- Innovaciones en javascript han permitido el desarrollo de conceptos como *isomorphic applications*, *single page applications* y *serverless*.
 - Además, proyectos como **Cordova/PhoneGap**, han permitido que javascript pueda ser envuelto como componente en aplicaciones mobile.
 
 ### TypeScript language
 
 - **Microsoft** desarrollo **Typescript** para introducir un javascript con clases, interfaces y tipado estático, que puede facilitar la construcción de IDEs y el desarrollo **OOP** en gran escala.
 - A diferencia de **Dart**, Microsoft se ha asegurado que Typescript sea un **superconjunto de Javascript**.
-	- Código javascript es código Typescript válido.
-- Algunas de las propuestas de Typescript han venido siendo implementadas por ES6.
+	- Código javascript es código typescript válido.
+- Algunas de las propuestas de typescript han venido siendo implementadas por ES6.
 - Typescript requiere un proceso de build para transformarse en javascript ejecutable.
 
 ### Improvements in ES6
 
-- El comité **ECMAScript** define la especificación para el lenguaje Javascript.
+- El comité **ECMAScript** define la especificación para el lenguaje javascript.
 	- **ES5** es el estandar actual.
 - La especificación **ES6** indica una serie de mejoras que los fabricantes de navegadores se encargarían de implementar.
 - Como la implementación tarda, los desarrolladores echan mano de herramientas de traspilación, como **Babel**, que les permite programar en javascript futuro y compilarla hacia javascript actual ES5.
@@ -76,7 +76,7 @@
 - Classes
 	- La ausencia de clases y la herencia por prototipos suelen parecer poco intuitivos para muchos desarrolladores.
 	- ES6 agrega clases y herencia de modo similar a OOP.
-	- Sin embargo, es sólamente syntactic sugar, internamente se sigue usando la herencia por prototipos.
+	- Sin embargo, es sólamente _syntactic sugar_, internamente se sigue usando la herencia por prototipos.
 - Module imports
 	- ES6 define import y export para los módulos.
 	- CommonJS usaba require() y modules.export.
