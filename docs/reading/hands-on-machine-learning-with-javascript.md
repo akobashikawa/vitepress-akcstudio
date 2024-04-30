@@ -7,13 +7,13 @@
 ### Why Javascript
 
 - **Javascript** ha ido ascendiendo como lenguaje más popular en la web
-	- Prototype Javascript Framework introdujo la notación $() para reemplazar a document.getElementById()
-	- jQuery uniformizó la manipulación del DOM, AJAX y efectos
-	- La iniciativa CommonJS, con NodeJS, llevo Javascript más allá del navegador como server-side language
-	- El registro npm agiliza la publicación y descubrimiento de módulos
+	- _Prototype Javascript Framework_ introdujo la notación $() para reemplazar a document.getElementById()
+	- _jQuery_ uniformizó la manipulación del DOM, AJAX y efectos
+	- La iniciativa _CommonJS_, con NodeJS, llevo Javascript más allá del navegador como server-side language
+	- El registro _npm_ agiliza la publicación y descubrimiento de módulos
 - **Python** suele ser el lenguaje preferido para ML y tiene una amplia biblioteca
 - Sin embargo, los algoritmos de ML se pueden implementar en cualquier lenguaje, como javascript.
-- Aunque Python tiene una popularidad ganada, javascript se está volviendo más atractivo para proyectos ML.
+- Aunque python tiene una popularidad ganada, javascript se está volviendo más atractivo para proyectos ML.
 
 ### Why machine learning, why now?
 
@@ -24,7 +24,7 @@
 - **TensorFlow**, de Google, democratiza las redes neurales.
 - La democratización de ML lleva a las empresas a un nuevo tipo de competencia.
 - Cada nuevo mercado creará una demanda de nuevos desarrolladores ML.
-- Estamos en camino a un boom en Inteligencia Artificial (AI).
+- Estamos en camino a un boom en _Inteligencia Artificial_ (AI).
 
 ### Advantages and challenges of JavaScript
 
@@ -43,8 +43,8 @@
 
 ### Node.js
 
-- El surgimiento de **Node.js** es uno de los más importantes en la historia de Javascript.
-- **Chrome** desarrolló la máquina **V8** y una forma de compilación Just in Time para ejecutar javascript.
+- El surgimiento de **Node.js** es uno de los más importantes en la historia de javascript.
+- **Chrome** desarrolló la máquina **V8** y una forma de compilación _Just in Time_ para ejecutar javascript.
 - Node.js tomó V8 y le agregó un sistema de manejo de eventos, acceso a disco y lo que necesitaba para que pudiera funcionar en un servidor.
 - Su forma de manejo a eventos, con un **único ciclo de eventos** que maneja muchas solicitudes concurrentes, favorece la asincronicidad y la programación por eventos.
 	- Ha sido clave para su adopción y éxito.
