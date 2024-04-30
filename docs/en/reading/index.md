@@ -3,6 +3,9 @@
 ## Current readings
 
 - [100 Ways to Motivate Yourself](100-ways-to-motivate-yourself.md)
+- [Docs for Developers](/reading/docs-for-developers.html)
+- [Using Gatsby and Netlify CMS](/reading/using-gatsby-and-netlify-cms.html)
+- [Hands-On Machine Learning with JavaScript](/reading/hands-on-machine-learning-with-javascript.html)
 
 ## How to read a book?
 

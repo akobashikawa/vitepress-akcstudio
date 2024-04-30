@@ -127,7 +127,8 @@ export default withMermaid({
                 items: [
                   { text: '100 Ways To Motivate...', link: '/reading/100-ways-to-motivate-yourself.md' },	
                   { text: 'Docs for Developers', link: '/reading/docs-for-developers.md' },	
-                  { text: 'Using Gatsby and Netlify CMS', link: '/reading/using-gatsby-and-netlify-cms.md' },	
+                  { text: 'Using Gatsby and Netlify CMS', link: '/reading/using-gatsby-and-netlify-cms.md' },
+                  { text: 'Hands-On Machine Learning with JavaScript', link: '/reading/hands-on-machine-learning-with-javascript.md' },	
                 ]
               },
             ]
