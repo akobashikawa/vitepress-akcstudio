@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "AKC Studio"
-  text: explorar | pensar | jugar | resolver | desarrollar | aprender
+  text: pensar | explorar | jugar | resolver | aprender
   tagline: Soy Antonio Kobashikawa Carrasco y hago Desarrollo Web.
   image:
     src: /assets/webdev-logo.png
@@ -17,7 +17,7 @@ hero:
     #   link: /api-examples
     - theme: brand
       text: Lo que aprendí hoy
-      link: https://akc-bitacora.netlify.app/
+      link: https://bitacora.akcstudio.com/
     - theme: brand
       text: Leyendo
       link: /reading/

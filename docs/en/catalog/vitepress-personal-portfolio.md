@@ -1,26 +1,20 @@
 # VitePress Personal Portfolio
 
-## Starter
+## Basic
 
-- Personal Portfolio powered by VitePress.
-- Sample pages:
+- Basic Portfolio creado con VitePress.
+- Secciones:
     - Home
+    - Me
+        - About me
+        - My influences
+        - My CV
     - My Work
-    - About me
-- Public repository on GitHub
-- Published on Netlify
-- Starter User's Manual
-
-## Professional
-
-- All of _Starter_
-- Own your domain
-- Own your repository on GitHub
-- Own your account on Netlify
-- Professional User's Manual
-
-## International
-
-- All of _Starter_
-- Publish in more than one language
-- International User's Manual
+        - About my work
+        - Gallery
+        - My links
+    - About
+- Repositorio público en GitHub
+- Publicado en Netlify
+- Demo: [Ian Dev](https://akcstudio.github.io/vitepress-portfolio/)
+- Fiverr Gig: [I will publish your portfolio on web in 48 hours using vitepress](https://www.fiverr.com/s/Ybmdyz)

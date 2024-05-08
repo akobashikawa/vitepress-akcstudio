@@ -17,4 +17,4 @@
 - Repositorio público en GitHub
 - Publicado en Netlify
 - Demo: [Ian Dev](https://akcstudio.github.io/vitepress-portfolio/)
-- Fiverr Gig: [Publicaré un portafolio web impulsado por vitepress](https://es.fiverr.com/s/0prN0x)
+- Fiverr Gig: [Publicaré tu portafolio web en 48 horas con vitepress](https://es.fiverr.com/s/0prN0x)

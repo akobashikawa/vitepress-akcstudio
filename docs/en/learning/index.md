@@ -1,3 +1,3 @@
 # Learning
 
-- [What I learned today](https://akc-bitacora.netlify.app/)
+- [What I learned today](https://bitacora.akcstudio.com/)
