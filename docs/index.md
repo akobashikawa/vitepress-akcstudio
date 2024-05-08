@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "AKC Studio"
-  text: pensar | explorar | jugar | resolver | aprender
-  tagline: Soy Antonio Kobashikawa Carrasco y hago Desarrollo Web.
+  text: explorar | jugar | pensar | resolver | aprender
+  tagline: Por Antonio Kobashikawa Carrasco
   image:
     src: /assets/webdev-logo.png
   actions:

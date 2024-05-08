@@ -3,6 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
+    "@types/node": "^20.12.11",
     "bun-types": "latest",
     "mermaid": "^10.6.1",
     "vitepress": "^1.0.0-rc.27",
@@ -12,8 +13,12 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs",
+    "docs:dev": "cross-env VITE_MODE=development vitepress dev docs",
     "docs:build": "vitepress build docs",
+    "docs:builddev": "cross-env VITE_MODE=development vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
   }
 }
