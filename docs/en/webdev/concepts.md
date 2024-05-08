@@ -74,7 +74,7 @@ Each web server has an **IP address**, which allows it to be located. For exampl
 
 It also usually has a **domain**, which can be used instead of the IP. For example, akcstudio.com
 
-Each page and each web resource has a **URL**, which is the address that allows it to be located on the web. For example, https://akcstudio.com/webdev.html
+Each page and each web resource has a **URL**, which is the address that allows it to be located on the web. For example, https://dev.akcstudio.com/webdev.html
 
 :::
 

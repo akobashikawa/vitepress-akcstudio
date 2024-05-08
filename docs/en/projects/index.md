@@ -1,8 +1,8 @@
 # Projects
 
 - [AKCStudio](https://akcstudio.com)
-- [AntonioKC @netlify](https://antoniokc.netlify.app/)
-- [Lo que aprendí hoy @netlify](https://akc-bitacora.netlify.app/)
+- [AKC Dev](https://dev.akcstudio.com)
+- [AKC Bitácora](https://bitacora.akcstudio.com/)
 - [AKC Puroguramu](https://puroguramu.akcstudio.com/)
 - [AKC Puroguramu @blogspot](https://akcdev.blogspot.com/)
 - [AKC Arte](https://arte.akcstudio.com/)
@@ -15,3 +15,4 @@
 - [Egaku](https://akchistorias.blogspot.com/)
 - [k-misc-kaze](https://akcmisc.blogspot.com/)
 - [Kangae](http://akcideas.blogspot.com/)
+- [AntonioKC @netlify](https://antoniokc.netlify.app/)

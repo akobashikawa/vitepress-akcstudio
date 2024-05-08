@@ -74,7 +74,7 @@ Cada servidor web tiene una **dirección ip**, que permite localizarlo. Por ejem
 
 También suele tener un **dominio**, que se puede usar en lugar del ip. Por ejemplo, akcstudio.com
 
-Cada página y cada recurso web tiene un **URL**, que es la dirección que permite localizarla en la web. Por ejemplo, https://akcstudio.com/webdev.html
+Cada página y cada recurso web tiene un **URL**, que es la dirección que permite localizarla en la web. Por ejemplo, https://dev.akcstudio.com/webdev.html
 
 :::
 
