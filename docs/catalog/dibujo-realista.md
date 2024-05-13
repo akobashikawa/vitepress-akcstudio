@@ -6,4 +6,4 @@
 
 <a href="https://hotm.art/WRXipRA" target="_blank"><img src="/assets/dibujo-realista/3.jpg"></a>
 
-[Sigue este enlace para ver el curso:](https://hotm.art/WRXipRA)
+[Sigue este enlace para ver el curso](https://hotm.art/WRXipRA)
