@@ -98,7 +98,7 @@ export default withMermaid({
         ],
 
         editLink: {
-          pattern: 'https://github.com/akobashikawa/vitepress-akcstudio/edit/dev/docs/:path',
+          pattern: 'https://github.com/akobashikawa/vitepress-akcstudio/edit/master/docs/:path',
           text: 'Editar en GitHub'
         }
         
@@ -174,7 +174,7 @@ export default withMermaid({
         ],
 
         editLink: {
-          pattern: 'https://github.com/akobashikawa/vitepress-akcstudio/edit/dev/docs/:path',
+          pattern: 'https://github.com/akobashikawa/vitepress-akcstudio/edit/master/docs/:path',
           text: 'Edit on GitHub'
         }
 
