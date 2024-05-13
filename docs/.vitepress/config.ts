@@ -97,6 +97,10 @@ export default withMermaid({
           { icon: 'github', link: 'https://github.com/akobashikawa/vitepress-akcstudio' }
         ],
 
+        editLink: {
+          pattern: 'https://github.com/akobashikawa/vitepress-akcstudio/edit/dev/docs/:path',
+          text: 'Editar en GitHub'
+        }
         
       },
     },
@@ -167,7 +171,13 @@ export default withMermaid({
     
         socialLinks: [
           { icon: 'github', link: 'https://github.com/akobashikawa/vitepress-akcstudio' }
-        ]
+        ],
+
+        editLink: {
+          pattern: 'https://github.com/akobashikawa/vitepress-akcstudio/edit/dev/docs/:path',
+          text: 'Edit on GitHub'
+        }
+
       },
     },
   },
