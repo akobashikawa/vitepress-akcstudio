@@ -1,6 +1,8 @@
 // import { defineConfig } from 'vitepress';
 import { withMermaid } from "vitepress-plugin-mermaid";
 
+const gitBranch = (process.env.VITE_MODE === 'development') ? 'dev' : 'master'
+
 export default withMermaid({
   // your existing vitepress config...
 
@@ -98,7 +100,7 @@ export default withMermaid({
         ],
 
         editLink: {
-          pattern: 'https://github.com/akobashikawa/vitepress-akcstudio/edit/master/docs/:path',
+          pattern: `https://github.com/akobashikawa/vitepress-akcstudio/edit/${gitBranch}/docs/:path`,
           text: 'Editar en GitHub'
         }
         
@@ -174,7 +176,7 @@ export default withMermaid({
         ],
 
         editLink: {
-          pattern: 'https://github.com/akobashikawa/vitepress-akcstudio/edit/master/docs/:path',
+          pattern: `https://github.com/akobashikawa/vitepress-akcstudio/edit/${gitBranch}/docs/:path`,
           text: 'Edit on GitHub'
         }
 
