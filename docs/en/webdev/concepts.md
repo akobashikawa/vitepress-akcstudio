@@ -70,7 +70,7 @@ flowchart LR
 
 ::: info
 
-Each web server has an **IP address**, which allows it to be located. For example, 67,207,84,142
+Each web server has an **IP address**, which allows it to be located. For example, 67.207.84.142
 
 It also usually has a **domain**, which can be used instead of the IP. For example, akcstudio.com
 
