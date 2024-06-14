@@ -168,13 +168,13 @@ To repeat, more important than the software is the process of making the softwar
 ### When developing:
 
 - Avoid expensive solutions if there is a cheaper one available.
-- For example, it is usually expensive and unnecessary to validate an idea with a complete infrastructure running.
-- Makes each change expensive and painful.
-- Creates resistance to change.
-- It is better to divide development into stages that allow for more economical partial validations.
-- It is better to use **descriptions** for ideas that have not yet been validated.
-- It is best to use **sketches** to describe components that have not yet been validated.
-- It is better to use **mockups** to provide data that has not yet been validated.
+	- For example, it is usually expensive and unnecessary to validate an idea with a complete infrastructure running.
+		- It makes each change expensive and painful.
+			- It creates resistance to change.
+	- It is better to divide development into stages that allow for more economical partial validations.
+	- It is better to use **descriptions** for ideas that have not yet been validated.
+	- It is best to use **sketches** to describe components that have not yet been validated.
+	- It is better to use **mockups** to provide data that has not yet been validated.
 - That one solution does not obstruct the following solutions.
 - It is better to implement something approximate and that will run than to look for something perfect that will not be implemented.
 :::
