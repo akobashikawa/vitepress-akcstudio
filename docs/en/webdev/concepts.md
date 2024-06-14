@@ -114,7 +114,7 @@ Among the most popular languages for making dynamic pages have been: [Perl](http
 
 To handle the complexity of development, libraries and frameworks are often used.
 
-A **library** (or bookstore) is a set of utilities that solve certain issues and we can take advantage of them to avoid having to solve everything.
+A **library** is a set of utilities that solve certain issues and we can take advantage of them to avoid having to solve everything.
 
 A **framework** proposes a way of organizing the code, or even a way of considering the development process, so that it is more understandable and maintainable.
 
