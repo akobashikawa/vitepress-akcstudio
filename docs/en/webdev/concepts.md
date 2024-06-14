@@ -149,7 +149,7 @@ So, it was considered convenient to organize the development so that the user in
 Thus, frontend frameworks such as [Meteor](https://www.meteor.com/), [Angular](https://angular.io/), [React](https://react.dev/) and [Vue](https://vuejs.org/), which allow you to build applications with very sophisticated interfaces.
 
 
-##Agile
+## Agile
 
 - In the **academic environment** (such as tutorials), a workflow of **tasks** that are **determined** and **well known** is used.
 - In the **real world**, there are usually **problems**, indeterminate issues, with **unknown** parts.
