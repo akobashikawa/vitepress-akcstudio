@@ -1,5 +1,18 @@
 # Changes
 
+## 20240615
+
+- Add VideoGallery
+
+## 20240601
+
+- Add fiverr colorize to Catalog
+
+## 20240513
+
+- Add edition support
+- Add course to Catalog
+
 ## 20240412
 
 - Add favicons
