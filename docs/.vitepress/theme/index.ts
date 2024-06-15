@@ -4,6 +4,8 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
+import VideoGallery from '../components/VideoGallery.vue'
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -12,6 +14,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component('VideoGallery', VideoGallery)
   }
 } satisfies Theme
