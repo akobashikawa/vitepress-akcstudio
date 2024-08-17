@@ -196,6 +196,7 @@ export default withMermaid({
     ['meta', { name: "msapplication-TileColor", content: "#5bbad5"}],
     ['meta', { name: "msapplication-config", content: "/assets/favicons/browserconfig.xml"}],
     ['meta', { name: "theme-color", content: "#ffffff"}],
+    // Google Analytics
     [
       'script',
       {
@@ -207,6 +208,16 @@ export default withMermaid({
       'script',
       {},
       "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-V13H3VTPBL');",
+    ],
+    // Google Adsense
+    [
+      "script",
+      {
+        "data-ad-client": "ca-pub-5418316759342767",
+        async: true,
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        crossorigin: "anonymous",
+      },
     ],
     [
       'script',
