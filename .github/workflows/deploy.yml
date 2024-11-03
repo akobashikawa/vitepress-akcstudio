@@ -1,0 +1,40 @@
+# .github/workflows/deploy.yml
+name: Deploy VitePress Site
+
+on:
+  push:
+    branches:
+      - master  # O la rama principal que usas
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '18'
+
+    - name: Install dependencies and build
+      run: |
+        npm install
+        npm run docs:build
+
+    - name: Deploy to server
+      env:
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+      run: |
+        # Crear el archivo de llave SSH para la conexión
+        echo "$DEPLOY_KEY" > /tmp/deploy_key
+        chmod 600 /tmp/deploy_key
+
+        # Usar rsync para copiar el build a tu servidor
+        rsync -avz -e "ssh -i /tmp/deploy_key -o StrictHostKeyChecking=no" \
+          docs/.vitepress/dist/ antoniokc@akcstudio.com:/var/www/html/akcstudio.com/
+
+    - name: Clean up
+      run: rm /tmp/deploy_key
