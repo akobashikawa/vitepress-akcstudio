@@ -30,7 +30,7 @@ jobs:
       run: |
         echo "$DEPLOY_KEY" > /tmp/deploy_key
         chmod 600 /tmp/deploy_key
-        rsync -avz --no-perms --no-group -e "ssh -i /tmp/deploy_key -o StrictHostKeyChecking=no" \
+        rsync -avz --no-perms --no-group --no-times -e "ssh -i /tmp/deploy_key -o StrictHostKeyChecking=no" \
             docs/.vitepress/dist/ antoniokc@akcstudio.com:/var/www/html/akcstudio.com/
 
     - name: Clean up
