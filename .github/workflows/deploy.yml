@@ -28,13 +28,10 @@ jobs:
       env:
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
       run: |
-        # Crear el archivo de llave SSH para la conexión
         echo "$DEPLOY_KEY" > /tmp/deploy_key
         chmod 600 /tmp/deploy_key
-
-        # Usar rsync para copiar el build a tu servidor
-        rsync -avz -e "ssh -i /tmp/deploy_key -o StrictHostKeyChecking=no" \
-          docs/.vitepress/dist/ antoniokc@akcstudio.com:/var/www/html/akcstudio.com/
+        rsync -avz --no-perms --no-group -e "ssh -i /tmp/deploy_key -o StrictHostKeyChecking=no" \
+            docs/.vitepress/dist/ antoniokc@akcstudio.com:/var/www/html/akcstudio.com/
 
     - name: Clean up
-      run: rm /tmp/deploy_key
+      run: rm -f /tmp/deploy_key
