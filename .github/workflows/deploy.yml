@@ -31,6 +31,7 @@ jobs:
 
     - name: Add host key to known_hosts
       run: |
+        mkdir -p ~/.ssh
         echo "akcstudio.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGdkO76eExuzZLSSXPzc97AQ3p/Bie3v72XbPkxBsozS" >> ~/.ssh/known_hosts
 
     - name: Deploy to server
