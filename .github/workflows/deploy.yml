@@ -29,6 +29,10 @@ jobs:
         echo "${{ secrets.DEPLOY_KEY }}" > /tmp/deploy_key
         chmod 600 /tmp/deploy_key
 
+    - name: Add host key to known_hosts
+      run: |
+        echo "akcstudio.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGdkO76eExuzZLSSXPzc97AQ3p/Bie3v72XbPkxBsozS" >> ~/.ssh/known_hosts
+
     - name: Deploy to server
       run: |
         rsync -avz --no-perms --no-group --no-times -e "ssh -i /tmp/deploy_key -o StrictHostKeyChecking=yes" \
