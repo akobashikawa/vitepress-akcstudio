@@ -24,13 +24,14 @@ jobs:
         npm install
         npm run docs:build
 
-    - name: Deploy to server
-      env:
-        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+    - name: Set up SSH
       run: |
-        echo "$DEPLOY_KEY" > /tmp/deploy_key
+        echo "${{ secrets.DEPLOY_KEY }}" > /tmp/deploy_key
         chmod 600 /tmp/deploy_key
-        rsync -avz --no-perms --no-group --no-times -e "ssh -i /tmp/deploy_key -o StrictHostKeyChecking=no" \
+
+    - name: Deploy to server
+      run: |
+        rsync -avz --no-perms --no-group --no-times -e "ssh -i /tmp/deploy_key -o StrictHostKeyChecking=yes" \
             docs/.vitepress/dist/ antoniokc@akcstudio.com:/var/www/html/akcstudio.com/
 
     - name: Clean up
