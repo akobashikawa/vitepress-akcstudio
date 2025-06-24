@@ -1,0 +1,14 @@
+[phases.setup]
+nixPkgs = ["nodejs-18_x"]
+
+[phases.install]
+cmd = "npm ci"
+
+[phases.build]
+cmd = "npm run docs:build"
+
+[start]
+cmd = "npx serve docs/.vitepress/dist -p $PORT --single"
+
+[build.options]
+outDir = "docs/.vitepress/dist"
