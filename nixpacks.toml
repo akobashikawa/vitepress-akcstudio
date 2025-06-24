@@ -8,7 +8,7 @@ cmd = "npm ci"
 cmd = "npm run docs:build"
 
 [start]
-cmd = "npx serve docs/.vitepress/dist -p $PORT --single"
+cmd = null
 
 [build.options]
 outDir = "docs/.vitepress/dist"
