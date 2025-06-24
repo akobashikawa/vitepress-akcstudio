@@ -1,5 +1,5 @@
 {
-  "install": "npm install && npm run docs:build",
+  "build": "npm install && npm run docs:build",
   "start": null,
   "out": "docs/.vitepress/dist",
   "packages": [
