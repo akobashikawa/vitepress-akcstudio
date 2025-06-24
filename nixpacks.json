@@ -1,0 +1,8 @@
+{
+  "build": "npm install && npm run docs:build",
+  "start": null, // Importante: indica que no hay un comando de inicio para un servidor
+  "out": "docs/.vitepress/dist",
+  "packages": [
+    "nodejs" // Asegura que Node.js esté disponible
+  ]
+}
