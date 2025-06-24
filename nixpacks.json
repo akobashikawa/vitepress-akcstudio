@@ -1,17 +1,3 @@
 {
-  "build": {
-    "cmd": "npm install && npm run docs:build",
-    "output": "docs/.vitepress/dist"
-  },
-  "start": {
-    "cmd": "npx serve docs/.vitepress/dist -p $PORT --single"
-  },
-  "variables": {
-    "NODE_VERSION": "18"
-  },
-  "phases": {
-    "setup": {
-      "pkgs": ["nodejs_18"]
-    }
-  }
+  start: null
 }
